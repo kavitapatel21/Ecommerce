@@ -1,0 +1,10 @@
+2022-02-20T07:37:44+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_form_field() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:116
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-settings.php(555): include()
+#1 C:\wamp64\www\clgpro\wp-config.php(96): require_once('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\clgpro\wp-load.php(50): require_once('C:\\wamp64\\www\\c...')
+#3 C:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('C:\\wamp64\\www\\c...')
+#4 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#5 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 116
+

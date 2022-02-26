@@ -1,0 +1,348 @@
+2022-02-22T05:37:36+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in C:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\wc-core-functions.php:1136
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): flush_rewrite_rules_on_shop_page_save(NULL)
+#1 C:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php(20): do_action('admin_footer', NULL)
+#4 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#6 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#7 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\contactus.php(105): get_footer()
+#8 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): i in C:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\wc-core-functions.php on line 1136
+
+2022-02-22T05:38:04+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in C:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\wc-core-functions.php:1136
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): flush_rewrite_rules_on_shop_page_save(NULL)
+#1 C:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php(20): do_action('admin_footer', NULL)
+#4 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#6 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#7 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php(92): get_footer()
+#8 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include in C:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\wc-core-functions.php on line 1136
+
+2022-02-22T05:39:14+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in C:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\wc-core-functions.php:1136
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): flush_rewrite_rules_on_shop_page_save(NULL)
+#1 C:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php(20): do_action('admin_footer', NULL)
+#4 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#6 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#7 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php(92): get_footer()
+#8 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): inclu in C:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\wc-core-functions.php on line 1136
+
+2022-02-22T06:24:56+00:00 CRITICAL Uncaught Error: Call to undefined function the_custom_footer_markup() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php:20
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php(92): get_footer()
+#4 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php on line 20
+
+2022-02-22T06:58:57+00:00 CRITICAL Uncaught Error: Call to undefined function comicpress_copyright() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php:20
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php(92): get_footer()
+#4 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php on line 20
+
+2022-02-22T06:59:04+00:00 CRITICAL Uncaught Error: Call to undefined function comicpress_copyright() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php:20
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty\404.php(36): get_footer()
+#4 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php on line 20
+
+2022-02-22T06:59:07+00:00 CRITICAL Uncaught Error: Call to undefined function comicpress_copyright() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php:20
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty\404.php(36): get_footer()
+#4 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php on line 20
+
+2022-02-22T06:59:07+00:00 CRITICAL Uncaught Error: Call to undefined function comicpress_copyright() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php:20
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty\404.php(36): get_footer()
+#4 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php on line 20
+
+2022-02-22T06:59:08+00:00 CRITICAL Uncaught Error: Call to undefined function comicpress_copyright() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php:20
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty\404.php(36): get_footer()
+#4 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php on line 20
+
+2022-02-22T06:59:09+00:00 CRITICAL Uncaught Error: Call to undefined function comicpress_copyright() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php:20
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty\404.php(36): get_footer()
+#4 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php on line 20
+
+2022-02-22T07:01:37+00:00 CRITICAL Uncaught Error: Call to undefined function comicpress_copyright() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php:20
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php(92): get_footer()
+#4 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php on line 20
+
+2022-02-22T07:02:03+00:00 CRITICAL Uncaught Error: Call to undefined function comicpress_copyright() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php:20
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php(92): get_footer()
+#4 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php on line 20
+
+2022-02-22T07:05:33+00:00 CRITICAL Uncaught Error: Call to undefined function comicpress_copyright() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php:20
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php(92): get_footer()
+#4 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php on line 20
+
+2022-02-22T07:06:17+00:00 CRITICAL Uncaught Error: Call to undefined function comicpress_copyright() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php:20
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php(92): get_footer()
+#4 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php on line 20
+
+2022-02-22T07:06:20+00:00 CRITICAL Uncaught Error: Call to undefined function comicpress_copyright() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php:20
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php(92): get_footer()
+#4 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php on line 20
+
+2022-02-22T07:06:36+00:00 CRITICAL Uncaught Error: Call to undefined function comicpress_copyright() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php:20
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php(92): get_footer()
+#4 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php on line 20
+
+2022-02-22T07:07:26+00:00 CRITICAL Uncaught Error: Call to undefined function comicpress_copyright() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php:20
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php(92): get_footer()
+#4 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php on line 20
+
+2022-02-22T07:07:37+00:00 CRITICAL Uncaught Error: Call to undefined function comicpress_copyright() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php:20
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php(92): get_footer()
+#4 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php on line 20
+
+2022-02-22T07:09:02+00:00 CRITICAL syntax error, unexpected '}' in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 57
+
+2022-02-22T07:09:32+00:00 CRITICAL syntax error, unexpected '}' in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 57
+
+2022-02-22T07:09:34+00:00 CRITICAL syntax error, unexpected '}' in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 57
+
+2022-02-22T07:09:37+00:00 CRITICAL syntax error, unexpected '}' in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 57
+
+2022-02-22T07:09:54+00:00 CRITICAL syntax error, unexpected '}' in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 55
+
+2022-02-22T07:10:10+00:00 CRITICAL Uncaught Error: Call to undefined function comicpress_copyright() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php:20
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php(92): get_footer()
+#4 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php on line 20
+
+2022-02-22T07:10:41+00:00 CRITICAL Uncaught Error: Call to undefined function comicpress_copyright() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php:20
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php(92): get_footer()
+#4 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php on line 20
+
+2022-02-22T07:10:42+00:00 CRITICAL Uncaught Error: Call to undefined function comicpress_copyright() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php:20
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php(92): get_footer()
+#4 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php on line 20
+
+2022-02-22T07:15:15+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 97
+
+2022-02-22T07:15:30+00:00 CRITICAL Uncaught Error: Class 'My_Widget' not found in C:\wamp64\www\clgpro\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\widgets.php(115): WP_Widget_Factory->register('My_Widget')
+#1 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php(101): register_widget('My_Widget')
+#2 C:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): wpdocs_register_widgets('')
+#3 C:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 C:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\wamp64\www\clgpro\wp-includes\widgets.php(1854): do_action('widgets_init')
+#6 C:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): wp_widgets_init('')
+#7 C:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#8 C:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#10 C:\wamp64\www\clgpro\wp-conf in C:\wamp64\www\clgpro\wp-includes\class-wp-widget-factory.php on line 61
+
+2022-02-22T07:16:01+00:00 CRITICAL Uncaught Error: Call to undefined function sswpdocs_register_widgets() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php:20
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php(92): get_footer()
+#4 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php on line 20
+
+2022-02-22T07:16:16+00:00 CRITICAL Uncaught Error: Call to undefined function sswpdocs_register_widgets() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php:20
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php(92): get_footer()
+#4 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php on line 20
+
+2022-02-22T07:18:24+00:00 CRITICAL Uncaught Error: Call to undefined function wpdocs_register_widgets() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php:20
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 C:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\clgpro\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php(92): get_footer()
+#4 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\footer.php on line 20
+
+2022-02-22T09:00:37+00:00 CRITICAL Uncaught Error: Call to a member function add_section() on null in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:188
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-settings.php(555): include()
+#1 C:\wamp64\www\clgpro\wp-config.php(96): require_once('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\clgpro\wp-load.php(50): require_once('C:\\wamp64\\www\\c...')
+#3 C:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('C:\\wamp64\\www\\c...')
+#4 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#5 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 188
+
+2022-02-22T09:00:55+00:00 CRITICAL Uncaught Error: Call to a member function add_section() on null in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:184
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-settings.php(555): include()
+#1 C:\wamp64\www\clgpro\wp-config.php(96): require_once('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\clgpro\wp-load.php(50): require_once('C:\\wamp64\\www\\c...')
+#3 C:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('C:\\wamp64\\www\\c...')
+#4 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#5 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 184
+
+2022-02-22T09:00:58+00:00 CRITICAL Uncaught Error: Call to a member function add_section() on null in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:184
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-settings.php(555): include()
+#1 C:\wamp64\www\clgpro\wp-config.php(96): require_once('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\clgpro\wp-load.php(50): require_once('C:\\wamp64\\www\\c...')
+#3 C:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('C:\\wamp64\\www\\c...')
+#4 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#5 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 184
+
+2022-02-22T13:00:58+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php on line 15
+
+2022-02-22T13:01:55+00:00 CRITICAL syntax error, unexpected end of file in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php on line 87
+

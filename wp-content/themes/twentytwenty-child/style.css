@@ -1,0 +1,150 @@
+/*
+Theme Name: twentytwenty Child
+Theme URI:  https://www.wpserveur.net
+Description: twentytwenty Child Built on bootstrap
+Author:     WPServeur
+Author URI: https://www.wpserveur.net
+Template:   twentytwenty
+Version:    1.0
+License:    GNU General Public License v2 or later
+*/
+
+/*Checkout page css*/
+.woocommerce-billing-fields .form-row,
+.woocommerce-shipping-fields .form-row,
+.woocommerce form .form-row {
+  display: block;
+}
+
+.woocommerce .col2-set .col-1,
+.woocommerce-page .col2-set .col-1,
+.woocommerce .col2-set .col-2,
+.woocommerce-page .col2-set .col-2 {
+  max-width: unset;
+}
+
+/*Account page css*/
+.woocommerce-account .woocommerce-MyAccount-navigation {
+	width: 20%;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content {
+  display: inline-block;
+  float: left;
+  margin-left: 5%;
+  width: 100%;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul {
+    padding: 0;
+	border-top: 1px solid #eee;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li {
+	list-style: none;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 0;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.is-active a:before {
+	opacity: 1;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a {
+	padding: 10px 5px;
+	display: block;
+    width:250px;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a:before {
+	margin-right: 20px;
+    opacity: .25;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a:hover:before {
+	opacity: 1;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--dashboard a:before {
+    font-family: 'FontAwesome';
+	content: "\f0e4";
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--orders a:before {
+    font-family: 'FontAwesome';
+	content: "\f291";
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--downloads a:before {
+    font-family: 'FontAwesome';
+	content: "\f1c6";
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--edit-address a:before {
+    font-family: 'FontAwesome';
+	content: "\f015";
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--payment-methods a:before {
+    font-family: 'FontAwesome';
+	content: "\f09d";
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--edit-account a:before {
+    font-family: 'FontAwesome';
+	content: "\f007";
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--customer-logout a:before {
+    font-family: 'FontAwesome';
+	content: "\f08b";
+}
+
+.woocommerce-account .woocommerce-MyAccount-content h2 {
+	font-size: 25px;
+    text-align: center;
+	font-weight: 600;
+}
+
+.woocommerce-account p.order-again {
+    text-align: right;
+}
+
+.woocommerce-account .woocommerce-EditAccountForm input[type="submit"] {
+    margin-top: 500px;
+    float: right;
+}
+
+/*shop page*/
+h1.woocommerce-products-header__title.page-title{
+    display:none;
+}
+.woocommerce-products-header{
+    display:none;
+}
+
+/*order details page*/
+.woocommerce-order{
+    margin-top: 100px;
+}
+
+.woocommerce-Address-title title{
+background-color: #eee;
+width:280px;
+}
+
+.woocommerce-Address header.woocommerce-Address-title{
+    background-color: transparent;
+    position: relative;
+}
+
+
+
+/*wishlist page css*/
+.tinv-wishlist table.tinvwl-table-manage-list {
+    margin-top: 60px;
+}
+
+p.cart-empty.woocommerce-info{
+    margin-top: 50px;
+}

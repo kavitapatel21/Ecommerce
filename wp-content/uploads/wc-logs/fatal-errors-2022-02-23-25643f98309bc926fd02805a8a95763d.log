@@ -1,0 +1,22 @@
+2022-02-23T04:25:46+00:00 CRITICAL syntax error, unexpected '?' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php on line 20
+
+2022-02-23T04:59:46+00:00 CRITICAL syntax error, unexpected ''order'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php on line 17
+
+2022-02-23T06:11:22+00:00 CRITICAL Uncaught Error: Call to undefined function get_post_thumbnail_url() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php:22
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include()
+#1 D:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('D:\\wamp64\\www\\c...')
+#2 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#3 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php on line 22
+
+2022-02-23T06:11:28+00:00 CRITICAL Uncaught Error: Call to undefined function get_post_thumbnail_url() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php:22
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include()
+#1 D:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('D:\\wamp64\\www\\c...')
+#2 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#3 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php on line 22
+
+2022-02-23T06:21:25+00:00 CRITICAL syntax error, unexpected end of file in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php on line 92
+

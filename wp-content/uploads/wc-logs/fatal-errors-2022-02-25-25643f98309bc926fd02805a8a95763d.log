@@ -1,0 +1,536 @@
+2022-02-25T05:21:06+00:00 CRITICAL syntax error, unexpected '/', expecting end of file in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 105
+
+2022-02-25T05:21:22+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 126
+
+2022-02-25T05:21:24+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 126
+
+2022-02-25T05:25:08+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_usermeta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_fi in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T05:27:29+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_usermeta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_fi in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T05:29:54+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_usermeta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_fi in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T05:31:03+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_usermeta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_fi in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T05:33:50+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_usermeta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_fi in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T05:37:56+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_usermeta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_fi in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T05:38:32+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_usermeta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_fi in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T05:40:35+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_usermeta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_fi in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T05:43:51+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_usermeta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_fi in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T05:44:33+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_usermeta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_fi in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T05:46:32+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_usermeta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_fi in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T05:47:18+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_usermeta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_fi in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T05:47:39+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_user_meta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_f in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T05:50:01+00:00 CRITICAL syntax error, unexpected ')' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 146
+
+2022-02-25T05:50:31+00:00 CRITICAL syntax error, unexpected ')' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T05:50:50+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_user_meta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_f in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T05:51:13+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_user_meta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_f in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T05:51:54+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_user_meta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_f in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T05:54:02+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_user_meta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_f in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T05:55:35+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_user_meta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_f in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T05:56:13+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_user_meta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_f in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T06:01:27+00:00 CRITICAL syntax error, unexpected end of file in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 123
+
+2022-02-25T06:03:24+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_user_meta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_f in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T06:04:37+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 127
+
+2022-02-25T06:09:54+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_usermeta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_fi in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T06:10:19+00:00 CRITICAL syntax error, unexpected ''Birthdate'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T06:10:34+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_usermeta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_fi in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T06:10:50+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_usermeta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_fi in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124
+
+2022-02-25T06:17:16+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_usermeta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:125
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_fi in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 125
+
+2022-02-25T06:17:42+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_user_meta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:125
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_f in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 125
+
+2022-02-25T07:10:03+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Customer::update_usermeta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:122
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_fi in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 122
+
+2022-02-25T07:49:52+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:126
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 126
+
+2022-02-25T07:50:08+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:126
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 126
+
+2022-02-25T07:54:10+00:00 CRITICAL Uncaught Error: Object of class wpdb could not be converted to string in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:128
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 128
+
+2022-02-25T07:56:11+00:00 CRITICAL Uncaught Error: Object of class wpdb could not be converted to string in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:128
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 128
+
+2022-02-25T07:58:12+00:00 CRITICAL Uncaught Error: Object of class wpdb could not be converted to string in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:128
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 128
+
+2022-02-25T08:00:13+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:126
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 126
+
+2022-02-25T08:23:17+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:126
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 126
+
+2022-02-25T08:24:10+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:126
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 126
+
+2022-02-25T08:24:25+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:126
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 126
+
+2022-02-25T08:25:39+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:126
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 126
+
+2022-02-25T08:25:55+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:126
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 126
+
+2022-02-25T08:27:56+00:00 CRITICAL syntax error, unexpected end of file in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 141
+
+2022-02-25T03:29:12-05:00 CRITICAL Uncaught Error: Object of class wpdb could not be converted to string in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:131
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 131
+
+2022-02-25T03:29:43-05:00 CRITICAL Uncaught Error: Object of class wpdb could not be converted to string in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:130
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 130
+
+2022-02-25T03:29:57-05:00 CRITICAL Uncaught Error: Object of class wpdb could not be converted to string in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:130
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 130
+
+2022-02-25T03:31:58-05:00 CRITICAL Uncaught Error: Object of class wpdb could not be converted to string in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:129
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 129
+
+2022-02-25T08:45:37+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:126
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 126
+
+2022-02-25T08:47:00+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:126
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 126
+
+2022-02-25T08:47:34+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:126
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 126
+
+2022-02-25T08:47:49+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:126
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 126
+

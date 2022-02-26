@@ -1,0 +1,20 @@
+[25-Feb-2022 05:33:35 UTC] PHP Deprecated:  woocommerce_get_page_id is <strong>deprecated</strong> since version 3.0! Use wc_get_page_id instead. in D:\wamp64\www\clgpro\wp-includes\functions.php on line 5316
+[25-Feb-2022 05:33:35 UTC] PHP Stack trace:
+[25-Feb-2022 05:33:35 UTC] PHP   1. {main}() D:\wamp64\www\clgpro\index.php:0
+[25-Feb-2022 05:33:35 UTC] PHP   2. require() D:\wamp64\www\clgpro\index.php:17
+[25-Feb-2022 05:33:35 UTC] PHP   3. require_once() D:\wamp64\www\clgpro\wp-blog-header.php:19
+[25-Feb-2022 05:33:35 UTC] PHP   4. include() D:\wamp64\www\clgpro\wp-includes\template-loader.php:106
+[25-Feb-2022 05:33:35 UTC] PHP   5. woocommerce_get_page_id($page = 'shop') D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\cart.php:15
+[25-Feb-2022 05:33:35 UTC] PHP   6. wc_deprecated_function($function = 'woocommerce_get_page_id', $version = '3.0', $replacement = 'wc_get_page_id') D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\wc-deprecated-functions.php:669
+[25-Feb-2022 05:33:35 UTC] PHP   7. _deprecated_function($function = 'woocommerce_get_page_id', $version = '3.0', $replacement = 'wc_get_page_id') D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\wc-deprecated-functions.php:54
+[25-Feb-2022 05:33:35 UTC] PHP   8. trigger_error($message = 'woocommerce_get_page_id is <strong>deprecated</strong> since version 3.0! Use wc_get_page_id instead.', $error_type = 16384) D:\wamp64\www\clgpro\wp-includes\functions.php:5316
+[25-Feb-2022 05:33:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WC_Customer::update_usermeta() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:124
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): save_account_billing_birthdate_field(Object(WC_Customer), Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1097): do_action('woocommerce_che...', Object(WC_Customer), Array)
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_customer(Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#6 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_AJAX::checkout('')
+#7 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_fi in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 124

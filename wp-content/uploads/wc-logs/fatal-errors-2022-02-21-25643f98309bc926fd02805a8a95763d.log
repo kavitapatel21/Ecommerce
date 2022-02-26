@@ -1,0 +1,34 @@
+2022-02-21T04:26:12+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_edit_address_page_id() in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php:10
+Stack trace:
+#0 C:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\clgpro\index.php(17): require('C:\\wamp64\\www\\c...')
+#3 {main}
+  thrown in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php on line 10
+
+2022-02-21T04:28:45+00:00 CRITICAL syntax error, unexpected '<' in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 50
+
+2022-02-21T04:47:18+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 47
+
+2022-02-21T04:48:24+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 47
+
+2022-02-21T04:49:16+00:00 CRITICAL syntax error, unexpected '?>' in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 48
+
+2022-02-21T04:49:18+00:00 CRITICAL syntax error, unexpected '?>' in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 48
+
+2022-02-21T04:49:36+00:00 CRITICAL syntax error, unexpected '?>' in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 48
+
+2022-02-21T04:50:46+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 47
+
+2022-02-21T07:23:12+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 56
+
+2022-02-21T07:27:38+00:00 CRITICAL syntax error, unexpected '' ?>">'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 50
+
+2022-02-21T07:28:15+00:00 CRITICAL syntax error, unexpected '' ?>">'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 57
+
+2022-02-21T07:29:07+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 58
+
+2022-02-21T07:30:58+00:00 CRITICAL syntax error, unexpected '/' in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 50
+
+2022-02-21T08:27:03+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 49
+
