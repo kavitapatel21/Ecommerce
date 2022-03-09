@@ -1,0 +1,1364 @@
+2022-03-01T04:51:38+00:00 CRITICAL syntax error, unexpected 'year' (T_STRING) in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 136
+
+2022-03-01T05:26:04+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 136
+
+2022-03-01T05:28:46+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 136
+
+2022-03-01T05:29:47+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 136
+
+2022-03-01T05:30:48+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 136
+
+2022-03-01T06:49:35+00:00 CRITICAL syntax error, unexpected end of file in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 153
+
+2022-03-01T06:50:05+00:00 CRITICAL syntax error, unexpected end of file in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 153
+
+2022-03-01T06:50:41+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:142
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 142
+
+2022-03-01T07:03:00+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:142
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 142
+
+2022-03-01T07:04:19+00:00 CRITICAL syntax error, unexpected end of file in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 156
+
+2022-03-01T07:10:59+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:142
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 142
+
+2022-03-01T07:11:58+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:142
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 142
+
+2022-03-01T07:12:11+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:142
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 142
+
+2022-03-01T07:12:13+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:142
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 142
+
+2022-03-01T07:13:52+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:142
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 142
+
+2022-03-01T07:14:12+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:142
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 142
+
+2022-03-01T07:14:35+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:142
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 142
+
+2022-03-01T07:16:13+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:142
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 142
+
+2022-03-01T07:17:18+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:142
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 142
+
+2022-03-01T07:20:51+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 147
+
+2022-03-01T07:21:20+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:142
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 142
+
+2022-03-01T07:23:21+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:142
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 142
+
+2022-03-01T07:23:47+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:142
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 142
+
+2022-03-01T07:25:22+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:142
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 142
+
+2022-03-01T07:26:00+00:00 CRITICAL Uncaught Error: Call to undefined function ToObject() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:141
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 141
+
+2022-03-01T07:26:42+00:00 CRITICAL Uncaught Error: Call to undefined function ToObject() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:141
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 141
+
+2022-03-01T07:27:23+00:00 CRITICAL Uncaught Error: Call to undefined function ToObject() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:141
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 141
+
+2022-03-01T07:28:05+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:142
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 142
+
+2022-03-01T07:28:24+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:142
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 142
+
+2022-03-01T07:28:58+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:29:01+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:29:16+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:29:26+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:30:25+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:30:40+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:32:03+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:32:26+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:33:32+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:34:54+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:35:33+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:36:38+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:37:08+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:37:17+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:37:43+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:38:18+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:38:37+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:38:48+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:40:19+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:42:20+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:44:21+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:46:22+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:143
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 143
+
+2022-03-01T07:48:33+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:144
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 144
+
+2022-03-01T07:48:36+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:144
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 144
+
+2022-03-01T07:49:38+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:144
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 144
+
+2022-03-01T07:50:38+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:144
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 144
+
+2022-03-01T07:52:39+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:144
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 144
+
+2022-03-01T07:54:40+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:144
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 144
+
+2022-03-01T07:56:41+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:144
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 144
+
+2022-03-01T07:58:42+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:144
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 144
+
+2022-03-01T08:00:04+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:00:19+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:144
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 144
+
+2022-03-01T08:00:31+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:144
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 144
+
+2022-03-01T08:01:32+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:144
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 144
+
+2022-03-01T08:02:30+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:02:31+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:02:37+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:03:00+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:144
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 144
+
+2022-03-01T08:03:33+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:144
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 144
+
+2022-03-01T08:05:34+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:144
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 144
+
+2022-03-01T08:07:35+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:144
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 144
+
+2022-03-01T08:09:36+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:144
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 144
+
+2022-03-01T08:10:30+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:10:32+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:14:24+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:14:29+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:14:58+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:15:58+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:16:15+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:16:59+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:18:06+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:19:00+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:20:07+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:21:01+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:42:35+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin.php(34): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\wp-admin\index.php(10): require_once('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:45:19+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:144
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 144
+
+2022-03-01T08:46:13+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:144
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 144
+
+2022-03-01T08:47:46+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:48:14+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:48:57+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:49:15+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:50:16+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:52:17+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:53:33+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 154
+
+2022-03-01T08:58:41+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T08:59:16+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T09:00:05+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T09:01:17+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:145
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T09:01:48+00:00 CRITICAL syntax error, unexpected ')', expecting '{' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 142
+
+2022-03-01T09:02:10+00:00 CRITICAL syntax error, unexpected ')' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 144
+
+2022-03-01T09:02:23+00:00 CRITICAL syntax error, unexpected ')' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T09:02:25+00:00 CRITICAL syntax error, unexpected ')' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T09:02:34+00:00 CRITICAL syntax error, unexpected ')', expecting ';' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 152
+
+2022-03-01T09:02:35+00:00 CRITICAL syntax error, unexpected ')', expecting ';' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 152
+
+2022-03-01T09:02:43+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:158
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 158
+
+2022-03-01T09:03:18+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:158
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 158
+
+2022-03-01T09:05:56+00:00 CRITICAL syntax error, unexpected ''<br>'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 145
+
+2022-03-01T09:09:04+00:00 CRITICAL Uncaught Error: Call to undefined function MONTH() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:149
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 149
+
+2022-03-01T09:16:47+00:00 CRITICAL syntax error, unexpected '$month' (T_VARIABLE), expecting ';' or ',' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 150
+
+2022-03-01T09:16:49+00:00 CRITICAL syntax error, unexpected '$month' (T_VARIABLE), expecting ';' or ',' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 150
+
+2022-03-01T09:17:03+00:00 CRITICAL Uncaught Error: Call to undefined function month() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:151
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 151
+
+2022-03-01T09:17:03+00:00 CRITICAL Uncaught Error: Call to undefined function month() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:151
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 151
+
+2022-03-01T09:17:45+00:00 CRITICAL Uncaught Error: Call to undefined function month() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:151
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 151
+
+2022-03-01T09:17:59+00:00 CRITICAL Uncaught Error: Call to undefined function month() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:151
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 151
+
+2022-03-01T09:18:39+00:00 CRITICAL Uncaught Error: Call to undefined function month() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:152
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 152
+
+2022-03-01T09:18:57+00:00 CRITICAL Uncaught Error: Call to undefined function month() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:151
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 151
+
+2022-03-01T09:19:04+00:00 CRITICAL Uncaught Error: Call to undefined function month() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:151
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 151
+
+2022-03-01T09:19:17+00:00 CRITICAL Uncaught Error: Call to undefined function month() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:151
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 151
+
+2022-03-01T09:19:19+00:00 CRITICAL Uncaught Error: Call to undefined function month() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:151
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 151
+
+2022-03-01T09:19:27+00:00 CRITICAL Uncaught Error: Call to undefined function month() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:151
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 151
+
+2022-03-01T09:20:41+00:00 CRITICAL Uncaught Error: Call to undefined function month() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:150
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#7 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 150
+
+2022-03-01T09:21:05+00:00 CRITICAL Uncaught Error: Call to undefined function month() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:150
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 150
+
+2022-03-01T09:23:06+00:00 CRITICAL Uncaught Error: Call to undefined function month() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:150
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): get_birthdate('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-settings.php(587): do_action('init')
+#4 D:\wamp64\www\clgpro\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 150
+
+2022-03-01T09:52:49+00:00 CRITICAL syntax error, unexpected '/' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 150
+
+2022-03-01T10:12:37+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 154
+
+2022-03-01T10:12:59+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 152
+
+2022-03-01T10:13:03+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 152
+
+2022-03-01T10:32:42+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 177
+
+2022-03-01T10:43:55+00:00 CRITICAL syntax error, unexpected '“text' (T_STRING), expecting ')' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 154
+
+2022-03-01T10:47:17+00:00 CRITICAL require_once(): Failed opening required '../../../../wp-load.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 12
+
+2022-03-01T10:47:32+00:00 CRITICAL require_once(): Failed opening required '../../../wp-load.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 12
+
+2022-03-01T10:47:43+00:00 CRITICAL require_once(): Failed opening required '../../wp-load.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 12
+
+2022-03-01T10:55:52+00:00 CRITICAL syntax error, unexpected '@' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 154
+
+2022-03-01T10:56:03+00:00 CRITICAL syntax error, unexpected '@' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 154
+
+2022-03-01T11:23:57+00:00 CRITICAL Uncaught Error: Xdebug has detected a possible infinite loop, and aborted your script with a stack depth of '256' frames in D:\wamp64\www\clgpro\wp-includes\plugin.php:959
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\plugin.php(959): spl_object_hash(Object(wpdb))
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(219): _wp_filter_build_unique_id('query', Array, false)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(265): WP_Hook->has_filter('query', Array)
+#3 D:\wamp64\www\clgpro\wp-includes\wp-db.php(2239): has_filter('query', Array)
+#4 D:\wamp64\www\clgpro\wp-includes\wp-db.php(2271): wpdb->placeholder_escape()
+#5 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): wpdb->remove_placeholder_escape('SELECT * FROM w...')
+#6 D:\wamp64\www\clgpro\wp-includes\plugin.php(189): WP_Hook->apply_filters('SELECT * FROM w...', Array)
+#7 D:\wamp64\www\clgpro\wp-includes\wp-db.php(2016): apply_filters('query', 'SELECT * FROM w...')
+#8 D:\wamp64\www\clgpro\wp-includes\wp-db.php(2829): wpdb->query('SELECT * FROM  in D:\wamp64\www\clgpro\wp-includes\plugin.php on line 959
+
+2022-03-01T11:55:34+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting end of file in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 191
+

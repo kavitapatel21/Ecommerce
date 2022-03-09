@@ -1,0 +1,18 @@
+2022-02-28T10:32:35+00:00 CRITICAL syntax error, unexpected 'date' (T_STRING), expecting ')' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 131
+
+2022-02-28T10:34:36+00:00 CRITICAL syntax error, unexpected 'date' (T_STRING), expecting ')' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 131
+
+2022-02-28T10:36:37+00:00 CRITICAL syntax error, unexpected 'date' (T_STRING), expecting ')' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 131
+
+2022-02-28T10:38:38+00:00 CRITICAL syntax error, unexpected 'date' (T_STRING), expecting ')' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 131
+
+2022-02-28T10:40:39+00:00 CRITICAL syntax error, unexpected 'date' (T_STRING), expecting ')' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 131
+
+2022-02-28T10:43:24+00:00 CRITICAL syntax error, unexpected '28' (T_LNUMBER), expecting ')' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 131
+
+2022-02-28T10:43:28+00:00 CRITICAL syntax error, unexpected '28' (T_LNUMBER), expecting ')' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 131
+
+2022-02-28T10:43:39+00:00 CRITICAL syntax error, unexpected '28' (T_LNUMBER), expecting ')' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 131
+
+2022-02-28T11:50:17+00:00 CRITICAL syntax error, unexpected 'm' (T_STRING), expecting ')' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 136
+

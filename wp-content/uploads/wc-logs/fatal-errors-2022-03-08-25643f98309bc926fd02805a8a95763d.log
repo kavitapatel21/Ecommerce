@@ -1,0 +1,48 @@
+2022-03-08T06:34:55+00:00 CRITICAL Uncaught Error: Xdebug has detected a possible infinite loop, and aborted your script with a stack depth of '256' frames in D:\wamp64\www\clgpro\wp-includes\formatting.php:2146
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\formatting.php(2146): is_scalar('order_awaiting_...')
+#1 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-session.php(102): sanitize_key('order_awaiting_...')
+#2 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-session.php(59): WC_Session->get('order_awaiting_...')
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\wc-cart-functions.php(184): WC_Session->__get('order_awaiting_...')
+#4 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(309): wc_clear_cart_after_payment(NULL)
+#5 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#7 D:\wamp64\www\clgpro\wp-includes\general-template.php(38): do_ in D:\wamp64\www\clgpro\wp-includes\formatting.php on line 2146
+
+2022-03-08T06:35:30+00:00 CRITICAL Uncaught Error: Xdebug has detected a possible infinite loop, and aborted your script with a stack depth of '256' frames in D:\wamp64\www\clgpro\wp-includes\formatting.php:2146
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\formatting.php(2146): is_scalar('order_awaiting_...')
+#1 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-session.php(102): sanitize_key('order_awaiting_...')
+#2 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-session.php(59): WC_Session->get('order_awaiting_...')
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\wc-cart-functions.php(184): WC_Session->__get('order_awaiting_...')
+#4 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(309): wc_clear_cart_after_payment(NULL)
+#5 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#7 D:\wamp64\www\clgpro\wp-includes\general-template.php(38): do_ in D:\wamp64\www\clgpro\wp-includes\formatting.php on line 2146
+
+2022-03-08T06:52:11+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_theme_svg() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty\template-parts\modal-menu.php:22
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\template.php(772): require()
+#1 D:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('D:\\wamp64\\www\\c...', false, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php(100): get_template_part('template-parts/...')
+#4 D:\wamp64\www\clgpro\wp-includes\template.php(770): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('D:\\wamp64\\www\\c...', true, Array)
+#6 D:\wamp64\www\clgpro\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\mailform.php(6): get_header()
+#8 D:\wamp64\www\clgpro\wp-content\themes\twentytw in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty\template-parts\modal-menu.php on line 22
+
+2022-03-08T06:52:40+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_theme_svg() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty\template-parts\modal-menu.php:22
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\template.php(772): require()
+#1 D:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('D:\\wamp64\\www\\c...', false, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php(100): get_template_part('template-parts/...')
+#4 D:\wamp64\www\clgpro\wp-includes\template.php(770): require_once('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('D:\\wamp64\\www\\c...', true, Array)
+#6 D:\wamp64\www\clgpro\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\mailform.php(6): get_header()
+#8 D:\wamp64\www\clgpro\wp-content\themes\twentytw in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty\template-parts\modal-menu.php on line 22
+
+2022-03-08T08:02:09+00:00 CRITICAL syntax error, unexpected '*', expecting end of file in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\mailform.php on line 17
+

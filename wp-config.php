@@ -1,4 +1,5 @@
 <?php
+define( 'WP_CACHE', false /* Modified by NitroPack */ );
 /**
  * The base configuration for WordPress
  *

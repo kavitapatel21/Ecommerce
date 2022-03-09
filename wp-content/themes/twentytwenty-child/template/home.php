@@ -6,6 +6,8 @@ Template Post Type: post, page, my-post-type;
 get_header();
 ?>
 
+
+
 <!-- Page Content -->
     <!-- Banner Starts Here -->
     <div class="banner header-text">
@@ -31,9 +33,14 @@ get_header();
       </div>
     </div>
     <!-- Banner Ends Here -->
-   <!--<?php echo do_shortcode('[contact-form-7 id="251" title="contact form"]'); ?>-->
+   <!--<?php echo do_shortcode('[contact-form-7 id="364" title="Contact form 1"]'); ?>-->
 
+   <!--products searchbar-->
+        <div style="margin-top: 30px; margin-bottom:30px;">
+            <?php echo do_shortcode('[fibosearch]'); ?> 
+        </div>  
 
+  
     <div class="latest-products" id="latest-products">
       	<div class="container">
         	<div class="row">

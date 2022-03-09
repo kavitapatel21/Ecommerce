@@ -1,0 +1,10 @@
+2022-03-07T12:01:27+00:00 CRITICAL Uncaught Error: Call to a member function get_payment_method() on null in D:\wamp64\www\clgpro\wp-content\plugins\upi-qr-code-payment-for-woocommerce\includes\payment.php:706
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): WC_UPI_Payment_Gateway->order_received_text('Thank you. Your...', NULL)
+#1 D:\wamp64\www\clgpro\wp-includes\plugin.php(189): WP_Hook->apply_filters('Thank you. Your...', Array)
+#2 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\templates\checkout\thankyou.php(84): apply_filters('woocommerce_tha...', 'Thank you. Your...', NULL)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\c...')
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(256): wc_get_template('checkout/thanky...', Array)
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(0)
+#6 D:\w in D:\wamp64\www\clgpro\wp-content\plugins\upi-qr-code-payment-for-woocommerce\includes\payment.php on line 706
+

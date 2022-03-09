@@ -1,0 +1,161 @@
+2022-03-02T04:42:39+00:00 CRITICAL syntax error, unexpected '*', expecting end of file in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 133
+
+2022-03-02T05:56:34+00:00 CRITICAL syntax error, unexpected '(', expecting '{' in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 173
+
+2022-03-02T10:31:45+00:00 CRITICAL require_once(): Failed opening required 'mailer/class.phpmailer.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\mail.php on line 20
+
+2022-03-02T10:32:08+00:00 CRITICAL Uncaught Error: Call to a member function IsSMTP() on null in D:\wamp64\www\clgpro\mail.php:22
+Stack trace:
+#0 {main}
+  thrown in D:\wamp64\www\clgpro\mail.php on line 22
+
+2022-03-02T10:38:48+00:00 CRITICAL syntax error, unexpected end of file in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 191
+
+2022-03-02T12:01:57+00:00 CRITICAL require_once(): Failed opening required '../../../wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:02:13+00:00 CRITICAL require_once(): Failed opening required '../../wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:04:22+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:05:23+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:06:24+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:07:50+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:07:52+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:07:53+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:07:57+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:07:59+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:08:02+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:08:05+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:08:06+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:08:07+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:08:09+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:08:18+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:08:25+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:09:26+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:11:27+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:12:28+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:13:29+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:14:30+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:16:12+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:17:13+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:18:02+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:18:05+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:18:09+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:18:13+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:19:14+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:20:15+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:22:16+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:23:47+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:24:48+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:25:20+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:25:25+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:25:29+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:25:38+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:25:39+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:25:40+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:25:41+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:26:03+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:27:04+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:29:05+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:31:06+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:32:07+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:33:37+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:34:37+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:35:38+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:36:39+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:37:40+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:39:41+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:41:42+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:43:04+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:44:04+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:45:14+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:46:14+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:47:33+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:47:35+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:47:41+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:48:15+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:50:16+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:51:45+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:52:45+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:54:46+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:56:47+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T12:58:48+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T13:00:40+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T13:01:40+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T13:03:41+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T13:05:42+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T13:07:43+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T13:08:44+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T13:09:44+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
+2022-03-02T13:10:30+00:00 CRITICAL require_once(): Failed opening required 'wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 13
+
