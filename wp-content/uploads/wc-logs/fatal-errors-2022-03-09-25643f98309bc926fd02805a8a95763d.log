@@ -1,0 +1,64 @@
+2022-03-09T04:42:33+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION) in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 277
+
+2022-03-09T12:33:55+00:00 CRITICAL Uncaught Error: Call to undefined function woo_cart_icon() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php:97
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 D:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('D:\\wamp64\\www\\c...', true, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php(6): get_header()
+#4 D:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 97
+
+2022-03-09T12:35:17+00:00 CRITICAL Uncaught Error: Call to undefined function woo_cart_icon() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php:97
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 D:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('D:\\wamp64\\www\\c...', true, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php(6): get_header()
+#4 D:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 97
+
+2022-03-09T12:35:23+00:00 CRITICAL Uncaught Error: Call to undefined function woo_cart_icon() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php:97
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 D:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('D:\\wamp64\\www\\c...', true, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\cart.php(6): get_header()
+#4 D:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 97
+
+2022-03-09T12:35:36+00:00 CRITICAL Uncaught Error: Call to undefined function woo_cart_icon() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php:97
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 D:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('D:\\wamp64\\www\\c...', true, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\cart.php(6): get_header()
+#4 D:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 97
+
+2022-03-09T12:35:38+00:00 CRITICAL Uncaught Error: Call to undefined function woo_cart_icon() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php:97
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 D:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('D:\\wamp64\\www\\c...', true, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\home.php(6): get_header()
+#4 D:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 97
+
+2022-03-09T12:38:18+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 337
+

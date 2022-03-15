@@ -1,0 +1,2 @@
+2022-03-11T06:30:22+00:00 INFO Template setting migrated from D:/wamp64/www/clgpro/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/templates/Simple to default/Simple
+2022-03-11T06:30:24+00:00 CRITICAL Table 'clgpro.wp_wcpdf_invoice_number' doesn't exist

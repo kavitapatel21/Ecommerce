@@ -1,0 +1,8 @@
+2022-03-10T05:45:23+00:00 CRITICAL syntax error, unexpected end of file in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 394
+
+2022-03-10T10:19:47+00:00 CRITICAL require_once(): Failed opening required '../../../../wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\mailotp.php on line 2
+
+2022-03-10T10:20:19+00:00 CRITICAL require_once(): Failed opening required '../mailotp.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\ajaxmailform.php on line 8
+
+2022-03-10T10:20:34+00:00 CRITICAL require_once(): Failed opening required '../../../../wp-config.php' (include_path='.;C:\php\pear') in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\mailotp.php on line 2
+

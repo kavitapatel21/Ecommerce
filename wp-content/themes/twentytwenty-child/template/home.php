@@ -34,7 +34,7 @@ get_header();
     </div>
     <!-- Banner Ends Here -->
    <!--<?php echo do_shortcode('[contact-form-7 id="364" title="Contact form 1"]'); ?>-->
-
+   
    <!--products searchbar-->
         <div style="margin-top: 30px; margin-bottom:30px;">
             <?php echo do_shortcode('[fibosearch]'); ?> 

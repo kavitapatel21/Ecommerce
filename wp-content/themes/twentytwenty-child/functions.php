@@ -243,227 +243,169 @@ add_shortcode('my_ad_code', 'wpb_demo_shortcode_2');
 ?>
 
 
-<!--ajax registration form data mail-->
+
 <?php
+//ajax registration form data mail
 function invio_mail(){
+//echo '<pre>';
+// print_r($_POST);
+ //echo '</pre>';
+ 
 	$subject='Registration Form';
-	$fname=$_POST['firstname'];
-	$lname=$_POST['lastname'];
-	$dob=$_POST['birthdate'];
-	//$radio=$_POST['inlineRadioOptions'];
-	$phn=$_POST['phoneno'];
-	//$comment=$_POST['comment'];
+	$fname=$_POST['fname'];
+	$lname=$_POST['lname'];
+	$dob=$_POST['dob'];
+	$phn=$_POST['phno'];
+	$comment=$_POST['comment'];
 	$to = $_POST['email'];
 	$body  = 'From: Sixteen clothing' ;
 	$body .="<html>
 	<body>
-	<h3>Fistname: $fname</h3>
-	<h3>Lastname: $lname</h3>
-	<h3>DOB: $dob</h3>
-	<h3>Phone No: $phn</h3>
+	<h3>Fistname:". $fname ."</h3>
+	<h3>Lastname:". $lname ."</h3>
+	<h3>DOB:". $dob ."</h3>
+	<h3>Phone No:". $phn ."</h3>
+  <h3>Comment:". $comment ."</h3>
 	<body>
 	</html>";
-	 $headers = array('Content-Type: text/html; charset=UTF-8','From: kavita <kavita@plutustec.com>');
+	$headers = array('Content-Type: text/html; charset=UTF-8','From: kavita <kavita@plutustec.com>');
 	 
-	 if(isset($_POST['submit']))
-	{
+	//  if(isset($_POST))
+	// {
 		wp_mail( $to, $subject, $body, $headers );
-	}
+	//}
+  exit();
 }
 add_action( 'wp_ajax_siteWideMessage', 'invio_mail' );
 add_action( 'wp_ajax_nopriv_siteWideMessage', 'invio_mail' );
+
+add_action('wp_footer', 'wp_footer_call');
+function wp_footer_call(){
 ?>
-<script>
- jQuery(document).ready(function() {   
-    jQuery('#submit').click( function() {		
-        var formData = {
-            fname: jQuery('#firstName').val(),
-            lname: jQuery('#lastName').val(),
-			dob: jQuery('#birthdayDate').val(),
-            email: jQuery('#emailAddress').val(),
-			phno: jQuery('#phoneNumber').val(),
-            action:'siteWideMessage'
-        };
-        $.ajax({
-            type        : 'POST', 
-            url         : "<?php echo admin_url('admin-ajax.php'); ?>",
-            data        : formData,
-            dataType    : 'json',
-            encode      : true
-        }).done(function(data) {
-            console.log(data);        
-        }).fail(function(data) {
-            console.log(data);
-        });
-        e.preventDefault();     
-    });
+    <script>
+     /**    jQuery(document).ready(function() {   
+            jQuery('#submit').click( function() {	
+              //alert('alert');
+                
+                     var fname = jQuery('#firstName').val();
+                     var lname = jQuery('#lastName').val();
+                     var dob = jQuery('#birthdayDate').val();
+                     var email = jQuery('#emailAddress').val();
+                     var phno = jQuery('#phoneNumber').val();
+                     var comment = jQuery('#exampleFormControlTextarea1').val();
+            
+                $.ajax({
+                    type        : 'POST', 
+                    url         : "<?php echo admin_url('admin-ajax.php'); ?>",
+                    data        : {
+			        	action: 'siteWideMessage',
+			        	fname : fname,
+						    lname : lname,
+						    dob : dob,
+						    email : email,
+						    phno : phno,
+                			comment : comment,
+			        },
+                    dataType    : 'json',
+                    encode      : true
+                }).done(function(data) {
+                    console.log(data);        
+                }).fail(function(data) {
+                    console.log(data);
+                });
+                
+            });
+          });*/
 
-  });
-</script>
-<?php 
-//ajax form data in mail
-add_shortcode('Registration_form','contact_form_shortcode');
-function contact_form_shortcode(){	
+         
+    </script>
+<?php
+}
 ?>
-<style>
-	.gradient-custom {
-  /* fallback for old browsers */
-  background: #f093fb;
-
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1));
-
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1))
-}
-
-.card-registration .select-input.form-control[readonly]:not([disabled]) {
-  font-size: 1rem;
-  line-height: 2.15;
-  padding-left: .75em;
-  padding-right: .75em;
-}
-.card-registration .select-arrow {
-  top: 13px;
-}
-</style>
-
-<section class="vh-100 gradient-custom">
-  <div class="container py-5 h-100">
-    <div class="row justify-content-center align-items-center h-100">
-      <div class="col-12 col-lg-9 col-xl-7">
-        <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
-          <div class="card-body p-4 p-md-5">
-            <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Registration Form</h3>
-            <form method="POST" accept-charset="UTF-8" id="ajaxformid" name="frm">
-
-              <div class="row">
-                <div class="col-md-6 mb-4">
-
-                  <div class="form-outline">
-                    <input type="text" id="firstName" class="form-control form-control-lg" name="firstname" />
-                    <label class="form-label" for="firstName">First Name</label>
-                  </div>
-
-                </div>
-                <div class="col-md-6 mb-4">
-
-                  <div class="form-outline">
-                    <input type="text" id="lastName" class="form-control form-control-lg" name="lastname" />
-                    <label class="form-label" for="lastName">Last Name</label>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-md-6 mb-4 d-flex align-items-center">
-
-                  <div class="form-outline datepicker w-100">
-                    <input
-                      type="text"
-                      class="form-control form-control-lg"
-                      id="birthdayDate"
-					  name="birthdate"
-                    />
-                    <label for="birthdayDate" class="form-label">Birthday</label>
-                  </div>
-
-                </div>
-                <div class="col-md-6 mb-4">
-
-                  <h6 class="mb-2 pb-1">Gender: </h6>
-
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="inlineRadioOptions"
-                      id="femaleGender"
-                      value="Female"
-                      checked
-                    />
-                    <label class="form-check-label" for="femaleGender">Female</label>
-                  </div>
-
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="inlineRadioOptions"
-                      id="maleGender"
-                      value="Male"
-                    />
-                    <label class="form-check-label" for="maleGender">Male</label>
-                  </div>
-
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="inlineRadioOptions"
-                      id="otherGender"
-                      value="Other"
-                    />
-                    <label class="form-check-label" for="otherGender">Other</label>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-md-6 mb-4 pb-2">
-
-                  <div class="form-outline">
-                    <input type="email" id="emailAddress" class="form-control form-control-lg" name="email" />
-                    <label class="form-label" for="emailAddress">Email</label>
-                  </div>
-
-                </div>
-                <div class="col-md-6 mb-4 pb-2">
-
-                  <div class="form-outline">
-                    <input type="tel" id="phoneNumber" class="form-control form-control-lg" name="phoneno"/>
-                    <label class="form-label" for="phoneNumber">Phone Number</label>
-                  </div>
-
-                </div>
-              </div>
-
-             <!-- <div class="row">
-                <div class="col-12">
-
-                  <select class="select form-control-lg">
-                    <option value="1" disabled>Choose option</option>
-                    <option value="2">Subject 1</option>
-                    <option value="3">Subject 2</option>
-                    <option value="4">Subject 3</option>
-                  </select>
-                  <label class="form-label select-label">Choose option</label>
-
-                </div>
-              </div>-->
-
-			  <div class="row">
-                <div class="col-12">
-			
-				<textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="3" name="comment"></textarea>
-				<label class="form-label" for="comment">Comment</label>
-				
-				</div>
-			  </div>
-			 
-              <div class="mt-4 pt-2">
-                <input class="btn btn-primary btn-lg" type="submit" value="Submit" name="submit" id="submit" class="submit" />
-              </div>
-
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<?php
+/*
+ * Shortcode for WooCommerce Cart Icon for Menu Item
+ */
+//add_shortcode ('woocommerce_cart_icon', 'woo_cart_icon' );
+function woo_cart_icon() {
+    ob_start();
+ 
+        $cart_count = WC()->cart->cart_contents_count; // Set variable for cart item count
+        $cart_url = wc_get_cart_url();  // Set variable for Cart URL
   
-</section>
-<?php } ?>
+        echo '<a class="menu-item cart-contents" href="'.$cart_url.'" title="Cart" style="color:white;">';
+        
+        if ( $cart_count > 0 ) {
+        
+            echo '<span class="cart-contents-count">'.$cart_count.'</span>';
+       
+        }
+        
+        echo '</a>';
+        
+            
+    return ob_get_clean();
+ 
+}
 
+/*
+ * Filter with AJAX When Cart Contents Update
+ */
+add_filter( 'woocommerce_add_to_cart_fragments', 'woo_cart_icon_count' );
+function woo_cart_icon_count( $fragments ) {
+ 
+    ob_start();
+    
+    $cart_count = WC()->cart->cart_contents_count;
+    $cart_url = wc_get_cart_url();
+    
+    
+    echo '<a class="cart-contents menu-item" href="'.$cart_url.'" title="View Cart">';
+    
+    if ( $cart_count > 0 ) {
+        
+        echo '<span class="cart-contents-count">'.$cart_count.'</span>';
+                    
+    }
+    echo '</a>';
+ 
+    $fragments['a.cart-contents'] = ob_get_clean();
+     
+    return $fragments;
+}
+
+/*
+ * Append Cart Icon Particular Menu
+ */
+/*
+add_filter('wp_nav_menu_items','woo_cart_icon_menu', 10, 2);
+function woo_cart_icon_menu($menu, $args) {
+
+    if($args->theme_location == '27') { // 'primary' is my menu ID
+        $cart = do_shortcode("[woocommerce_cart_icon]");
+        return $cart . $menu;
+    }
+
+    return $menu;
+}*/
+
+
+/**function validateotp(){
+	?>
+<script>
+	var otpverify=jQuery('#partitioned').val();
+	var getotpcode= jQuery('#mailotp').val();
+	if(otpverify != getotpcode){
+		  alert('please check your entered email address');
+		  return false;
+	}
+	else{
+		alert('OTP is correct');
+	}
+</script>
+<?php
+} 
+add_action( 'wp_ajax_otpverification', 'validateotp' );
+add_action( 'wp_ajax_nopriv_otpverification', 'validateotp' );
+
+?>

@@ -45,6 +45,7 @@ https://templatemo.com/tm-546-sixteen-clothing
 			<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/templatemo-sixteen.css"/>
 			<!-- Special version of Bootstrap that only affects content wrapped in .bootstrap-iso -->
 			<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" /> 
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">    
 
 <!--Font Awesome (added because you use icons in your prepend/append)-->
 <link rel="stylesheet" href="https://formden.com/static/cdn/font-awesome/4.4.0/css/font-awesome.min.css" />
@@ -91,6 +92,11 @@ https://templatemo.com/tm-546-sixteen-clothing
 		</li>
 		<?php } ?>
             </ul>
+			<div>	
+			<i class="fa" style="font-size:24px;color:aliceblue">&#xf07a;</i>
+			<span class='badge badge-warning' id='lblCartCount'><?php echo  woo_cart_icon(); ?></span>
+		</div>
+        </div>
           </div>
         </div>
       </nav>

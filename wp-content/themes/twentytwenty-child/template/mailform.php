@@ -7,7 +7,8 @@ get_header();
 ?>
 
 <?php
-$subject='Registration Form';
+
+/**$subject='Registration Form';
 $fname=$_POST['firstname'];
 $lname=$_POST['lastname'];
 $dob=$_POST['birthdate'];
@@ -33,7 +34,7 @@ $body .="<html>
  if(isset($_POST['submit']))
 {
 	$mail=wp_mail( $to, $subject, $body, $headers );
-}
+}*/
 ?>
 <style>
 	.gradient-custom {
@@ -95,7 +96,7 @@ $body .="<html>
                       type="text"
                       class="form-control form-control-lg"
                       id="birthdayDate"
-					  name="birthdate"
+					            name="birthdate"
                     />
                     <label for="birthdayDate" class="form-label">Birthday</label>
                   </div>
@@ -161,6 +162,16 @@ $body .="<html>
                 </div>
               </div>
 
+              <div class="col-md-6 mb-4 pb-2">
+
+                  <div class="form-outline">
+                    <input id="partitioned" type="text" maxlength="7" />
+                    <label class="form-label" for="OTP">OTP</label>
+                  </div>
+
+              </div>
+              </div>
+
              <!-- <div class="row">
                 <div class="col-12">
 
@@ -185,7 +196,7 @@ $body .="<html>
 			  </div>
 			 
               <div class="mt-4 pt-2">
-                <input class="btn btn-primary btn-lg" type="submit" value="Submit" name="submit" />
+                <input class="btn btn-primary btn-lg" id="submit" type="button" value="Submit" name="submit" />
               </div>
 
             </form>
