@@ -9,7 +9,7 @@ get_header();
   
       	<div class="container">
         	<div class="row">
-            <div id="customer_login" style="margin-top:200px;">
+            <div id="customer_login" style="margin-top:150px;">
 			  			<?php echo do_shortcode('[woocommerce_my_account]'); ?>
         	</div>
         </div>

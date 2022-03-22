@@ -76,6 +76,13 @@ add_submenu_page( null,//parent page slug
   'data_view',// $menu_slug,
   'view_details'// $function
 );
+add_submenu_page( null,//parent page slug
+'employee_update',//$page_title
+'Employee Update',// $menu_title
+'manage_options',// $capability
+'Employee_Update',// $menu_slug,
+'update_data'// $function
+);
 }
 function insert_data(){
   global $wpdb;
@@ -208,18 +215,7 @@ function insert_data(){
           <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="3" name="comment"></textarea>
           </div>
           </div>
-  
-  
-                <div class="row">
-                <div class="col-md-6 mb-4 pb-2">
-                 
-                    <label class="form-label" for="otp">OTP</label>
-                      <input id="partitioned" type="text" maxlength="7" />
-                    </div>
-                </div>
-                </div>
-          
-        
+      
                 <div class="mt-4 pt-2">
                   <input class="btn btn-primary btn-lg" id="submit" type="submit" value="Submit" name="btn_submit"/>
                 </div>   
@@ -264,6 +260,7 @@ function displaydata()
       $getQuery =$wpdb->get_results("SELECT id,firstname,lastname,email,gender FROM wp_registrationentry WHERE  flag=1 order by $column $sort_order LIMIT " . $offset . ',' . $limit);  
      // echo $wpdb->last_query;
        $up_or_down = str_replace(array('ASC','DESC'), array('up','down'), $sort_order); 
+       //the column name again it will sort in the opposite order.
       $asc_or_desc = $sort_order == 'ASC' ? 'desc' : 'asc';
       $add_class = ' class="highlight"';
     ?>
@@ -305,6 +302,10 @@ function displaydata()
              Delete</button>
             </td>
             <td>
+            <button type="button" class="btn btn-info" name="btnedit">
+            <a href="<?php echo admin_url('admin.php?page=Employee_Update&id=' . $entry->id); ?>" style="color: white;">
+              Edit</button></td>
+            <td>
             <button type="button" class="btn btn-secondary" name="btnview">
             <a href="<?php echo admin_url('admin.php?page=data_view&id=' . $entry->id); ?>" style="color: white;">
               View Details</button></td>
@@ -328,7 +329,7 @@ $tag .= paginate_links( array(
         'prev_next'         => True,
         'prev_text'         => __('«'),
         'next_text'         => __('»'),
-        'before_page_number' => '<span style="color:blue;">',
+        'before_page_number' => '<span class="pagenum" style="color:blue;">',
         'after_page_number'  => '</span>'
     ) );
 
@@ -382,7 +383,7 @@ function view_details(){
             <th scope="col">Gender</th>
             <th scope="col">Email</th>
             <th scope="col">Phone no</th>
-			<th scope="col">Comment</th>
+			      <th scope="col">Comment</th>
           </tr>
         </thead>
         <?php
@@ -421,6 +422,184 @@ function view_details(){
   <?php }
 }
   ?>
+
+
+<?php //Edit record
+//echo "update page";
+function update_data(){
+
+    $i=$_GET['id'];
+    global $wpdb;
+    $table_name = $wpdb->prefix . 'registrationentry';
+    $employees = $wpdb->get_results("SELECT * from $table_name where id=$i");
+    //echo $wpdb->last_query;
+   // echo "<pre>";
+   // print_r($employees[0]);
+  // echo $employees[0]->comment;
+    ?>
+   <section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col-12 col-lg-9 col-xl-7">
+          <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+            <div class="card-body p-4 p-md-5">
+              <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Update Info</h3>
+              <form method="POST" accept-charset="UTF-8" id="updform">
+  
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+  
+                    <div class="form-outline">
+                    <label class="form-label" for="firstName">First Name</label>
+                      <input type="text" id="updfirstName" class="form-control form-control-lg" name="updfirstname" value="<?= $employees[0]->firstname; ?>" />
+                     
+                    </div>
+  
+                  </div>
+                  <div class="col-md-6 mb-4">
+  
+                    <div class="form-outline">
+                    <label class="form-label" for="lastName">Last Name</label>
+                      <input type="text" id="updlastName" class="form-control form-control-lg" name="updlastname" value="<?= $employees[0]->lastname; ?>"/>
+                     
+                    </div>
+  
+                  </div>
+                </div>
+  
+                <div class="row">
+                  <div class="col-md-6 mb-4 ">
+                  <label for="birthdayDate" class="form-label">DOB</label>
+                    <div class="form-outline datepicker w-100">
+                      <input
+                        type="text"
+                        class="form-control form-control-lg"
+                        id="updbirthdayDate"
+                        name="updbirthdate"
+                        value="<?= $employees[0]->birthdate; ?>"
+                      />
+                      
+                    </div>
+  
+                  </div>
+                  <div class="col-md-6 mb-4">
+  
+                    <h6 class="mb-2 pb-1">Gender: </h6>
+  
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="updinlineRadioOptions"
+                        id="updfemaleGender"
+                        value="<?= $employees[0]->gender; ?>"
+                        checked
+                      />
+                      <label class="form-check-label" for="femaleGender">Female</label>
+                    </div>
+  
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="updinlineRadioOptions"
+                        id="updmaleGender"
+                        value="<?= $employees[0]->gender; ?>"
+                      />
+                      <label class="form-check-label" for="maleGender">Male</label>
+                    </div>
+  
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="updinlineRadioOptions"
+                        id="updotherGender"
+                        value="<?= $employees[0]->gender; ?>"
+                      />
+                      <label class="form-check-label" for="otherGender">Other</label>
+                    </div>
+  
+                  </div>
+                </div>
+  
+                <div class="row">
+                  <div class="col-md-6 mb-4 pb-2">
+  
+                    <div class="form-outline">
+                    <label class="form-label" for="emailAddress">Email</label>
+                      <input type="email" id="updemailAddress" class="form-control form-control-lg" name="updemail" value="<?= $employees[0]->email; ?>" />
+                      
+                    </div>
+  
+                  </div>
+                  <div class="col-md-6 mb-4 pb-2">
+  
+                    <div class="form-outline">
+                    <label class="form-label" for="phoneNumber">Phone Number</label>
+                      <input type="tel" id="updphoneNumber" class="form-control form-control-lg" name="updphoneno" value="<?= $employees[0]->contactno;?>" />
+                      
+                    </div>
+  
+                  </div>
+                </div>
+  
+                <div class="row">
+                  <div class="col-12">
+                  <label class="form-label" for="comment">Comment</label>
+                  <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="3" name="updcomment" value="<?= $employees[0]->comment; ?>"><?= $employees[0]->comment; ?></textarea>
+                 <!-- <input type="text" id="updcomment" class="form-control form-control-lg" name="upcomment" value="<?= $employees[0]->comment; ?>"/>-->
+                </div>
+                </div>
+      
+                <div class="mt-4 pt-2">
+                  <input class="btn btn-primary btn-lg" id="updsubmit" type="submit" value="Submit" name="btn_update"/>
+                </div>   
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  
+    <?php
+}
+if(isset($_POST['btn_update']))
+{
+    global $wpdb;
+    $table_name=$wpdb->prefix.'registrationentry';
+    $i=$_GET['id'];
+    $fname = $_POST['updfirstname'];
+    $lname = $_POST['updlastname'];
+    $dob = $_POST['updbirthdate'];
+    $gender = $_POST['updinlineRadioOptions'];
+    $email = $_POST['updemail'];
+    $contactno = $_POST['updphoneno'];
+    $comment = $_POST['updcomment'];
+  
+    $wpdb->update (
+        $table_name,
+        array(
+            'firstname'=>$fname,
+            'lastname'=>$lname,
+            'birthdate'=> $dob,
+            'gender'=>  $gender,
+            'email'=> $email,
+            'contactno'=>$contactno,
+            'comment'=> $comment,
+        ),
+        array(
+            'id'=>$i,
+        )
+    );
+    echo $wpdb->last_query;
+    $home_url = admin_url('admin.php?page=data-display');
+    header('Location: ' . $home_url);  
+  ?> 
+ <?php }
+?>
   
   
 

@@ -1,0 +1,36 @@
+2022-03-21T07:38:22+00:00 CRITICAL Uncaught Error: Call to undefined function woo_cart_icon() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php:97
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 D:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('D:\\wamp64\\www\\c...', true, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\template\checkout.php(6): get_header()
+#4 D:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 97
+
+2022-03-21T07:38:29+00:00 CRITICAL Uncaught Error: Call to undefined function woo_cart_icon() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php:97
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 D:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('D:\\wamp64\\www\\c...', true, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\templates\archive-product.php(20): get_header('shop')
+#4 D:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 97
+
+2022-03-21T07:38:33+00:00 CRITICAL Uncaught Error: Call to undefined function woo_cart_icon() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php:97
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\template.php(770): require_once()
+#1 D:\wamp64\www\clgpro\wp-includes\template.php(716): load_template('D:\\wamp64\\www\\c...', true, Array)
+#2 D:\wamp64\www\clgpro\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\templates\archive-product.php(20): get_header('shop')
+#4 D:\wamp64\www\clgpro\wp-includes\template-loader.php(106): include('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-blog-header.php(19): require_once('D:\\wamp64\\www\\c...')
+#6 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\header.php on line 97
+

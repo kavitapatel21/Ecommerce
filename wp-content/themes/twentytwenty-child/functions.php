@@ -326,7 +326,7 @@ function wp_footer_call(){
 /*
  * Shortcode for WooCommerce Cart Icon for Menu Item
  */
-//add_shortcode ('woocommerce_cart_icon', 'woo_cart_icon' );
+add_shortcode ('woocommerce_cart_icon', 'woo_cart_icon' );
 function woo_cart_icon() {
     ob_start();
  
@@ -374,22 +374,17 @@ function woo_cart_icon_count( $fragments ) {
     return $fragments;
 }
 
-/*
- * Append Cart Icon Particular Menu
+
+add_filter( 'wp_nav_menu_top-menu_items', 'woo_cart_but_icon', 10, 2 ); // Change menu to suit - example uses 'top-menu'
+
+/**
+ * Add WooCommerce Cart Menu Item Shortcode to particular menu
  */
-/*
-add_filter('wp_nav_menu_items','woo_cart_icon_menu', 10, 2);
-function woo_cart_icon_menu($menu, $args) {
-
-    if($args->theme_location == '27') { // 'primary' is my menu ID
-        $cart = do_shortcode("[woocommerce_cart_icon]");
-        return $cart . $menu;
-    }
-
-    return $menu;
-}*/
-
-
+function woo_cart_but_icon ( $items, $args ) {
+       $items .=  '[woocommerce_cart_icon]'; // Adding the created Icon via the shortcode already created
+       
+       return $items;
+}
 /**function validateotp(){
 	?>
 <script>
@@ -407,5 +402,48 @@ function woo_cart_icon_menu($menu, $args) {
 } 
 add_action( 'wp_ajax_otpverification', 'validateotp' );
 add_action( 'wp_ajax_nopriv_otpverification', 'validateotp' );
+*/ 
 
+
+// custom menu on my account page woocommerce
+add_filter ( 'woocommerce_account_menu_items', 'misha_one_more_link' );
+function misha_one_more_link( $menu_links ){
+
+	// we will hook "anyuniquetext123" later
+	$new = array( 'anyuniquetext123' => 'custom menu' );
+
+	// or in case you need 2 links
+	// $new = array( 'link1' => 'Link 1', 'link2' => 'Link 2' );
+
+	// array_slice() is good when you want to add an element between the other ones
+	$menu_links = array_slice( $menu_links, 0, 1, true ) 
+	+ $new 
+	+ array_slice( $menu_links, 1, NULL, true );
+
+
+	return $menu_links;
+ 
+ 
+}
+
+add_filter( 'woocommerce_get_endpoint_url', 'misha_hook_endpoint', 10, 4 );
+function misha_hook_endpoint( $url, $endpoint, $value, $permalink ){
+ 
+	if( $endpoint === 'anyuniquetext123' ) {
+ 
+		// ok, here is the place for your custom URL, it could be external
+		$url = site_url();
+ 
+	}
+	return $url;
+ 
+}
 ?>
+
+<style>
+	nav.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--anyuniquetext123 a:before{
+	content: "\f1fd"
+}
+</style>
+
+

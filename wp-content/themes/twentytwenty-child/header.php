@@ -94,8 +94,9 @@ https://templatemo.com/tm-546-sixteen-clothing
             </ul>
 			<div>	
 			<i class="fa" style="font-size:24px;color:aliceblue">&#xf07a;</i>
-			<span class='badge badge-warning' id='lblCartCount'><?php echo  woo_cart_icon(); ?></span>
+			<span class='badge badge-warning' id='lblCartCount'><?php echo do_shortcode("[woocommerce_cart_icon]"); ?></span>
 		</div>
+		
         </div>
           </div>
         </div>

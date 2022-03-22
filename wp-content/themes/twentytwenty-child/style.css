@@ -30,7 +30,6 @@ License:    GNU General Public License v2 or later
 
 .woocommerce-account .woocommerce-MyAccount-content {
   display: inline-block;
-  float: left;
   margin-left: 5%;
   width: 100%;
 }
@@ -99,6 +98,11 @@ License:    GNU General Public License v2 or later
     font-family: 'FontAwesome';
 	content: "\f08b";
 }
+body.woocommerce-account ul li.woocommerce-MyAccount-navigation-link--anyuniquetext123 a:before{
+    font-family: 'FontAwesome';
+	content: "\f1fd"
+}
+
 
 .woocommerce-account .woocommerce-MyAccount-content h2 {
 	font-size: 25px;
@@ -205,3 +209,4 @@ a.cart-contents.menu-item{
     top: 13px;
   }
  
+  
