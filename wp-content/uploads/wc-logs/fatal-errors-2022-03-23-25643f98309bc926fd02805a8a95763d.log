@@ -1,0 +1,22 @@
+2022-03-23T05:56:10+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:441
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-settings.php(555): include()
+#1 D:\wamp64\www\clgpro\wp-config.php(97): require_once('D:\\wamp64\\www\\c...')
+#2 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#3 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#4 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#5 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 441
+
+2022-03-23T05:56:41+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:442
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-settings.php(555): include()
+#1 D:\wamp64\www\clgpro\wp-config.php(97): require_once('D:\\wamp64\\www\\c...')
+#2 D:\wamp64\www\clgpro\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#3 D:\wamp64\www\clgpro\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\c...')
+#4 D:\wamp64\www\clgpro\index.php(17): require('D:\\wamp64\\www\\c...')
+#5 {main}
+  thrown in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 442
+
+2022-03-23T11:55:09+00:00 CRITICAL syntax error, unexpected end of file in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 566
+

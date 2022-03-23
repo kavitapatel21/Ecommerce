@@ -410,7 +410,7 @@ add_filter ( 'woocommerce_account_menu_items', 'misha_one_more_link' );
 function misha_one_more_link( $menu_links ){
 
 	// we will hook "anyuniquetext123" later
-	$new = array( 'anyuniquetext123' => 'custom menu' );
+	$new = array( 'anyuniquetext123' => 'Points' );
 
 	// or in case you need 2 links
 	// $new = array( 'link1' => 'Link 1', 'link2' => 'Link 2' );
@@ -421,100 +421,109 @@ function misha_one_more_link( $menu_links ){
 	+ array_slice( $menu_links, 1, NULL, true );
 	return $menu_links;
 }
+add_action( 'init', 'misha_add_endpoint' );
+function misha_add_endpoint() {
 
-add_filter( 'woocommerce_get_endpoint_url', 'misha_hook_endpoint', 10, 4 );
-function misha_hook_endpoint( $url, $endpoint, $value, $permalink ){
- 
-	if( $endpoint === 'anyuniquetext123' ) {
- 
-		// ok, here is the place for your custom URL, it could be external
-		$url = site_url();
- 
+	// WP_Rewrite is my Achilles' heel, so please do not ask me for detailed explanation
+	add_rewrite_endpoint( 'anyuniquetext123', EP_PAGES );
+}
+	add_action( 'woocommerce_account_anyuniquetext123_endpoint', 'misha_my_account_endpoint_content' );
+function misha_my_account_endpoint_content() {
+	$count = apply_filters( 'wc_points_rewards_my_account_points_events', 0, get_current_user_id() );
+	global $woocommerce, $post;
+
+    $order = new WC_Order($post->ID);
+    $user_id = $order->get_user_id( );
+
+	if( is_checkout_pay_page() ){
+	 $count+=10;
+	 echo "Hii";
 	}
-	return $url;
- 
+	// of course you can print dynamic content here, one of the most useful functions here is get_current_user_id()
+	echo '<h1>Your Points:'.$count.'</h1>';
+
+}
+/*
 }
 ?>
 <?php
 //points and rewards
-function mwb_wpr_create_referral_code() {
-	$length = 10;
-	$pkey = '';
-	$alphabets = range( 'A', 'Z' );
-	$numbers = range( '0', '9' );
-	$final_array = array_merge( $alphabets, $numbers );
-	while ( $length-- ) {
-		$key = array_rand( $final_array );
-		$pkey .= $final_array[ $key ];
-	}
-	return $pkey;
-}
-function mwb_wpr_mytotalpoint_shortcode() {
-	$user_ID = get_current_user_ID();
-	$mwb_wpr_other_settings = get_option( 'mwb_wpr_other_settings', array() );
-	if ( ! empty( $mwb_wpr_other_settings['mwb_wpr_other_shortcode_text'] ) ) {
-		$mwb_wpr_shortcode_text_point = $mwb_wpr_other_settings['mwb_wpr_other_shortcode_text'];
-	} else {
-		$mwb_wpr_shortcode_text_point = __( 'Your Current Point', 'points-and-rewards-for-woocommerce' );
-	}
-	if ( isset( $user_ID ) && ! empty( $user_ID ) ) {
-		$get_points = (int) get_user_meta( $user_ID, 'mwb_wpr_points', true );
-		return '<div class="mwb_wpr_shortcode_wrapper">' . $mwb_wpr_shortcode_text_point . ' ' . $get_points . '</div>';
-	}
-}
-function mwb_wpr_mycurrentlevel_shortcode() {
-	$user_ID = get_current_user_ID();
-	$mwb_wpr_other_settings = get_option( 'mwb_wpr_other_settings', array() );
-	if ( ! empty( $mwb_wpr_other_settings['mwb_wpr_shortcode_text_membership'] ) ) {
-		$mwb_wpr_shortcode_text_membership = $mwb_wpr_other_settings['mwb_wpr_shortcode_text_membership'];
-	} else {
-		$mwb_wpr_shortcode_text_membership = __( 'Your Current Membership Level is', 'points-and-rewards-for-woocommerce' );
-	}
-	if ( isset( $user_ID ) && ! empty( $user_ID ) ) {
-		$user_level = get_user_meta( $user_ID, 'membership_level', true );
-		if ( isset( $user_level ) && ! empty( $user_level ) ) {
-			return $mwb_wpr_shortcode_text_membership . ' ' . $user_level;
-		}
-	}
-}
-function mwb_wpr_signupnotif_shortcode() {
-	$general_settings = get_option( 'mwb_wpr_settings_gallery', true );
-	$enable_mwb_signup = isset( $general_settings['mwb_wpr_general_signup'] ) ? intval( $general_settings['mwb_wpr_general_signup'] ) : 0;
-	if ( $enable_mwb_signup && ! is_user_logged_in() ) {
-		$mwb_wpr_signup_value = isset( $general_settings['mwb_wpr_general_signup_value'] ) ? intval( $general_settings['mwb_wpr_general_signup_value'] ) : 1;
+// Displaying a select field and a submit button in checkout page
+/*add_action( 'woocommerce_checkout_after_customer_details', 'rx_wc_reward_points_check', 10, 0 );
+function rx_wc_reward_points_check() {
+	foreach ( WC()->cart->get_cart() as $cart_item ) {
+		$quantity = $cart_item['quantity'];
+		$discount=10*$quantity;
+		
+	} 
 
-		return '<div class="woocommerce-message">' . esc_html__( 'You will get ', 'points-and-rewards-for-woocommerce' ) . esc_html( $mwb_wpr_signup_value ) . esc_html__( ' points for SignUp', 'points-and-rewards-for-woocommerce' ) . '</div>';
-	}
+    echo '<select class="rx-rewad-points" id="rx-redemption-points">
+        <option value="10">' . __("$discount points", "woocommerce" ) . '</option>
+       
+    </select>
+    <a class="button alt" name="rx_reward_points_btn" id="rx_reward_points" value="Apply" data-value="Reward Points">Apply Now</a>';
 }
-?>
-<?php
-//add custom field on cartpage
-function cfwc_create_custom_field() {
-	$args = array(
-	'id' => 'custom_text_field_title',
-	'label' => __( 'Custom Text Field Title', 'cfwc' ),
-	'class' => 'cfwc-custom-field',
-	'desc_tip' => true,
-	'description' => __( 'Enter the title of your custom text field.', 'ctwc' ),
-	);
-	woocommerce_wp_text_input( $args );
-   }
-   add_action( 'woocommerce_product_options_general_product_data', 'cfwc_create_custom_field' );
-   function cfwc_save_custom_field( $post_id ) {
-	$product = wc_get_product( $post_id );
-	$title = isset( $_POST['custom_text_field_title'] ) ? $_POST['custom_text_field_title'] : '';
-	$product->update_meta_data( 'custom_text_field_title', sanitize_text_field( $title ) );
-	$product->save();
-   }
-   add_action( 'woocommerce_process_product_meta', 'cfwc_save_custom_field' );
-   function cfwc_validate_custom_field( $passed, $product_id, $quantity ) {
-	if( empty( $_POST['cfwc-title-field'] ) ) {
-	// Fails validation
-	$passed = false;
-	wc_add_notice( __( 'Please enter a value into the text field', 'cfwc' ), 'error' );
-	}
-	return $passed;
-   }
-   add_filter( 'woocommerce_add_to_cart_validation', 'cfwc_validate_custom_field', 10, 3 );
-?>
 
+// jQuery - Ajax script
+add_action( 'wp_footer', 'rx_wc_reward_points_script' );
+function rx_wc_reward_points_script() {
+    // Only checkout page
+    if ( ! is_checkout() ) return;
+    ?>
+    <script type="text/javascript">
+		<?php foreach ( WC()->cart->get_cart() as $cart_item ) {
+		$quantity = $cart_item['quantity'];
+		$discount=10*$quantity;
+		
+	} ?>
+    jQuery( function($){
+        if (typeof wc_checkout_params === 'undefined')
+            return false;
+
+        $('#rx_reward_points').on('click', function() {
+            $.ajax({
+                type: "post",
+                url:  wc_checkout_params.ajax_url,
+                data: {
+                     'action' : 'rx_wc_deduct_reward',
+                     'rewardpoints' : <?php echo $discount ?>,
+                },
+                success: function(response) {
+                    $('body').trigger('update_checkout');
+                    console.log('response: '+response); // just for testing | TO BE REMOVED
+                },
+                error: function(error){
+                    console.log('error: '+error); // just for testing | TO BE REMOVED
+                }
+            });
+        })
+    })
+    </script>
+    <?php
+}
+
+// Wordpress Ajax code (set ajax data in Woocommerce session)
+add_action( 'wp_ajax_rx_wc_deduct_reward', 'rx_wc_deduct_reward' );
+add_action( 'wp_ajax_nopriv_rx_wc_deduct_reward', 'rx_wc_deduct_reward' );
+function rx_wc_deduct_reward() {
+    if( isset($_POST['rewardpoints']) ){
+        WC()->session->set( 'custom_fee', esc_attr( $_POST['rewardpoints'] ) );
+        echo true;
+    }
+    exit();
+}
+
+// Add a custom dynamic discount based on reward points
+add_action( 'woocommerce_cart_calculate_fees', 'rx_rewardpoints_discount', 20, 1 );
+function rx_rewardpoints_discount( $cart ) {
+    if ( is_admin() && ! defined( 'DOING_AJAX' ) )
+        return;
+
+    // Only for targeted shipping method
+    if (  WC()->session->__isset( 'custom_fee' ) )
+        $discount = (float) WC()->session->get( 'custom_fee' );
+
+    if( isset($discount) && $discount > 0 )
+        $cart->add_fee( __( 'Reward discount', 'woocommerce' ), -$discount );
+}*/
+?>
