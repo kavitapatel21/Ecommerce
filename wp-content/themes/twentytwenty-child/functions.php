@@ -419,11 +419,7 @@ function misha_one_more_link( $menu_links ){
 	$menu_links = array_slice( $menu_links, 0, 1, true ) 
 	+ $new 
 	+ array_slice( $menu_links, 1, NULL, true );
-
-
 	return $menu_links;
- 
- 
 }
 
 add_filter( 'woocommerce_get_endpoint_url', 'misha_hook_endpoint', 10, 4 );
@@ -439,11 +435,86 @@ function misha_hook_endpoint( $url, $endpoint, $value, $permalink ){
  
 }
 ?>
-
-<style>
-	nav.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--anyuniquetext123 a:before{
-	content: "\f1fd"
+<?php
+//points and rewards
+function mwb_wpr_create_referral_code() {
+	$length = 10;
+	$pkey = '';
+	$alphabets = range( 'A', 'Z' );
+	$numbers = range( '0', '9' );
+	$final_array = array_merge( $alphabets, $numbers );
+	while ( $length-- ) {
+		$key = array_rand( $final_array );
+		$pkey .= $final_array[ $key ];
+	}
+	return $pkey;
 }
-</style>
+function mwb_wpr_mytotalpoint_shortcode() {
+	$user_ID = get_current_user_ID();
+	$mwb_wpr_other_settings = get_option( 'mwb_wpr_other_settings', array() );
+	if ( ! empty( $mwb_wpr_other_settings['mwb_wpr_other_shortcode_text'] ) ) {
+		$mwb_wpr_shortcode_text_point = $mwb_wpr_other_settings['mwb_wpr_other_shortcode_text'];
+	} else {
+		$mwb_wpr_shortcode_text_point = __( 'Your Current Point', 'points-and-rewards-for-woocommerce' );
+	}
+	if ( isset( $user_ID ) && ! empty( $user_ID ) ) {
+		$get_points = (int) get_user_meta( $user_ID, 'mwb_wpr_points', true );
+		return '<div class="mwb_wpr_shortcode_wrapper">' . $mwb_wpr_shortcode_text_point . ' ' . $get_points . '</div>';
+	}
+}
+function mwb_wpr_mycurrentlevel_shortcode() {
+	$user_ID = get_current_user_ID();
+	$mwb_wpr_other_settings = get_option( 'mwb_wpr_other_settings', array() );
+	if ( ! empty( $mwb_wpr_other_settings['mwb_wpr_shortcode_text_membership'] ) ) {
+		$mwb_wpr_shortcode_text_membership = $mwb_wpr_other_settings['mwb_wpr_shortcode_text_membership'];
+	} else {
+		$mwb_wpr_shortcode_text_membership = __( 'Your Current Membership Level is', 'points-and-rewards-for-woocommerce' );
+	}
+	if ( isset( $user_ID ) && ! empty( $user_ID ) ) {
+		$user_level = get_user_meta( $user_ID, 'membership_level', true );
+		if ( isset( $user_level ) && ! empty( $user_level ) ) {
+			return $mwb_wpr_shortcode_text_membership . ' ' . $user_level;
+		}
+	}
+}
+function mwb_wpr_signupnotif_shortcode() {
+	$general_settings = get_option( 'mwb_wpr_settings_gallery', true );
+	$enable_mwb_signup = isset( $general_settings['mwb_wpr_general_signup'] ) ? intval( $general_settings['mwb_wpr_general_signup'] ) : 0;
+	if ( $enable_mwb_signup && ! is_user_logged_in() ) {
+		$mwb_wpr_signup_value = isset( $general_settings['mwb_wpr_general_signup_value'] ) ? intval( $general_settings['mwb_wpr_general_signup_value'] ) : 1;
 
+		return '<div class="woocommerce-message">' . esc_html__( 'You will get ', 'points-and-rewards-for-woocommerce' ) . esc_html( $mwb_wpr_signup_value ) . esc_html__( ' points for SignUp', 'points-and-rewards-for-woocommerce' ) . '</div>';
+	}
+}
+?>
+<?php
+//add custom field on cartpage
+function cfwc_create_custom_field() {
+	$args = array(
+	'id' => 'custom_text_field_title',
+	'label' => __( 'Custom Text Field Title', 'cfwc' ),
+	'class' => 'cfwc-custom-field',
+	'desc_tip' => true,
+	'description' => __( 'Enter the title of your custom text field.', 'ctwc' ),
+	);
+	woocommerce_wp_text_input( $args );
+   }
+   add_action( 'woocommerce_product_options_general_product_data', 'cfwc_create_custom_field' );
+   function cfwc_save_custom_field( $post_id ) {
+	$product = wc_get_product( $post_id );
+	$title = isset( $_POST['custom_text_field_title'] ) ? $_POST['custom_text_field_title'] : '';
+	$product->update_meta_data( 'custom_text_field_title', sanitize_text_field( $title ) );
+	$product->save();
+   }
+   add_action( 'woocommerce_process_product_meta', 'cfwc_save_custom_field' );
+   function cfwc_validate_custom_field( $passed, $product_id, $quantity ) {
+	if( empty( $_POST['cfwc-title-field'] ) ) {
+	// Fails validation
+	$passed = false;
+	wc_add_notice( __( 'Please enter a value into the text field', 'cfwc' ), 'error' );
+	}
+	return $passed;
+   }
+   add_filter( 'woocommerce_add_to_cart_validation', 'cfwc_validate_custom_field', 10, 3 );
+?>
 
