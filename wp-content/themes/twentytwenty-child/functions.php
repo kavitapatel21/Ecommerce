@@ -411,10 +411,6 @@ function misha_one_more_link( $menu_links ){
 
 	// we will hook "anyuniquetext123" later
 	$new = array( 'anyuniquetext123' => 'Points' );
-
-	// or in case you need 2 links
-	// $new = array( 'link1' => 'Link 1', 'link2' => 'Link 2' );
-
 	// array_slice() is good when you want to add an element between the other ones
 	$menu_links = array_slice( $menu_links, 0, 1, true ) 
 	+ $new 
@@ -429,101 +425,60 @@ function misha_add_endpoint() {
 }
 	add_action( 'woocommerce_account_anyuniquetext123_endpoint', 'misha_my_account_endpoint_content' );
 function misha_my_account_endpoint_content() {
-	$count = apply_filters( 'wc_points_rewards_my_account_points_events', 0, get_current_user_id() );
-	global $woocommerce, $post;
 
-    $order = new WC_Order($post->ID);
-    $user_id = $order->get_user_id( );
-
-	if( is_checkout_pay_page() ){
-	 $count+=10;
-	 echo "Hii";
-	}
-	// of course you can print dynamic content here, one of the most useful functions here is get_current_user_id()
-	echo '<h1>Your Points:'.$count.'</h1>';
-
-}
-/*
+		echo '<h1>Your Points:</h1>';
+		
 }
 ?>
-<?php
-//points and rewards
-// Displaying a select field and a submit button in checkout page
-/*add_action( 'woocommerce_checkout_after_customer_details', 'rx_wc_reward_points_check', 10, 0 );
-function rx_wc_reward_points_check() {
-	foreach ( WC()->cart->get_cart() as $cart_item ) {
-		$quantity = $cart_item['quantity'];
-		$discount=10*$quantity;
-		
-	} 
+<?php 
+//to display points on my accout page
+function scratchcode_create_payment_table() {
+ 
+    global $wpdb;
+ 
+    $table_name = $wpdb->prefix . "userpoints";
+ 
+    $charset_collate = $wpdb->get_charset_collate();
+ 
+    $sql = "CREATE TABLE IF NOT EXISTS $table_name (
+      id bigint(20) NOT NULL AUTO_INCREMENT,
+      user_id bigint(20) UNSIGNED NOT NULL,
+      points bigint(20) NOT NULL,
+      PRIMARY KEY id (id)
+    ) $charset_collate;";
+ 
+    require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+    dbDelta($sql);
+}    
+add_action('init', 'scratchcode_create_payment_table');
 
-    echo '<select class="rx-rewad-points" id="rx-redemption-points">
-        <option value="10">' . __("$discount points", "woocommerce" ) . '</option>
-       
-    </select>
-    <a class="button alt" name="rx_reward_points_btn" id="rx_reward_points" value="Apply" data-value="Reward Points">Apply Now</a>';
+add_filter( 'woocommerce_thankyou_order_received_text', 'misha_thank_you_title', 20, 2 );
+
+function misha_thank_you_title( $thank_you_title, $order ){
+//	echo '<pre>';
+//	print_r($order);
+	$user_id = $order->get_customer_id(); 
+  //  echo $user_id.'<br>';
+	echo "Thank you.Your order has been received.";
+	global $wpdb;
+	$wpdb->insert('wp_userpoints', array(
+		'user_id' => $user_id,
+		'points' => '10', 
+	));
+	$chk_data = $wpdb->get_results("SELECT user_id FROM wp_userpoints");
+	$no=$wpdb->num_rows;
+	if($no>1){
+		$wpdb->update (
+			'wp_userpoints',
+			array(
+				'username'=>$username,
+				
+			),
+			array(
+				'id'=>$id,
+			)
+		);
+	}
+	
 }
-
-// jQuery - Ajax script
-add_action( 'wp_footer', 'rx_wc_reward_points_script' );
-function rx_wc_reward_points_script() {
-    // Only checkout page
-    if ( ! is_checkout() ) return;
-    ?>
-    <script type="text/javascript">
-		<?php foreach ( WC()->cart->get_cart() as $cart_item ) {
-		$quantity = $cart_item['quantity'];
-		$discount=10*$quantity;
-		
-	} ?>
-    jQuery( function($){
-        if (typeof wc_checkout_params === 'undefined')
-            return false;
-
-        $('#rx_reward_points').on('click', function() {
-            $.ajax({
-                type: "post",
-                url:  wc_checkout_params.ajax_url,
-                data: {
-                     'action' : 'rx_wc_deduct_reward',
-                     'rewardpoints' : <?php echo $discount ?>,
-                },
-                success: function(response) {
-                    $('body').trigger('update_checkout');
-                    console.log('response: '+response); // just for testing | TO BE REMOVED
-                },
-                error: function(error){
-                    console.log('error: '+error); // just for testing | TO BE REMOVED
-                }
-            });
-        })
-    })
-    </script>
-    <?php
-}
-
-// Wordpress Ajax code (set ajax data in Woocommerce session)
-add_action( 'wp_ajax_rx_wc_deduct_reward', 'rx_wc_deduct_reward' );
-add_action( 'wp_ajax_nopriv_rx_wc_deduct_reward', 'rx_wc_deduct_reward' );
-function rx_wc_deduct_reward() {
-    if( isset($_POST['rewardpoints']) ){
-        WC()->session->set( 'custom_fee', esc_attr( $_POST['rewardpoints'] ) );
-        echo true;
-    }
-    exit();
-}
-
-// Add a custom dynamic discount based on reward points
-add_action( 'woocommerce_cart_calculate_fees', 'rx_rewardpoints_discount', 20, 1 );
-function rx_rewardpoints_discount( $cart ) {
-    if ( is_admin() && ! defined( 'DOING_AJAX' ) )
-        return;
-
-    // Only for targeted shipping method
-    if (  WC()->session->__isset( 'custom_fee' ) )
-        $discount = (float) WC()->session->get( 'custom_fee' );
-
-    if( isset($discount) && $discount > 0 )
-        $cart->add_fee( __( 'Reward discount', 'woocommerce' ), -$discount );
-}*/
 ?>
