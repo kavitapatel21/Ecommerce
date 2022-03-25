@@ -1,0 +1,71 @@
+2022-03-25T04:53:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wpdb::update(), 2 passed in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 480 and at least 3 expected in D:\wamp64\www\clgpro\wp-includes\wp-db.php:2427
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php(480): wpdb->update('wp_userpoints', Array)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): misha_thank_you_title('Thank you. Your...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(189): WP_Hook->apply_filters('Thank you. Your...', Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\templates\checkout\thankyou.php(42): apply_filters('woocommerce_tha...', 'Thank you. Your...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\c...')
+#5 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\ in D:\wamp64\www\clgpro\wp-includes\wp-db.php on line 2427
+
+2022-03-25T08:09:03+00:00 CRITICAL Uncaught Error: Call to a member function get_customer_id() on string in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:428
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): misha_my_account_endpoint_content('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3134): do_action('woocommerce_acc...', '')
+#4 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): woocommerce_account_content('')
+#5 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#7 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\templates\myaccount\my-account.php(34): do_action('woocommerce_acc...')
+#8 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\ in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 428
+
+2022-03-25T08:10:58+00:00 CRITICAL Uncaught Error: Call to a member function get_customer_id() on string in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:428
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): misha_my_account_endpoint_content('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3134): do_action('woocommerce_acc...', '')
+#4 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): woocommerce_account_content('')
+#5 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#7 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\templates\myaccount\my-account.php(34): do_action('woocommerce_acc...')
+#8 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\ in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 428
+
+2022-03-25T08:19:49+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_customer_id() in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:429
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): misha_my_account_endpoint_content('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3134): do_action('woocommerce_acc...', '')
+#4 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): woocommerce_account_content('')
+#5 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#7 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\templates\myaccount\my-account.php(34): do_action('woocommerce_acc...')
+#8 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\w in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 429
+
+2022-03-25T08:22:08+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 443
+
+2022-03-25T08:22:14+00:00 CRITICAL Uncaught Error: Call to a member function get_customer_id() on null in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:441
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): misha_my_account_endpoint_content('')
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3134): do_action('woocommerce_acc...', '')
+#4 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): woocommerce_account_content('')
+#5 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#7 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\templates\myaccount\my-account.php(34): do_action('woocommerce_acc...')
+#8 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\wc in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 441
+
+2022-03-25T08:22:33+00:00 CRITICAL Uncaught Error: Call to a member function get_customer_id() on null in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php:441
+Stack trace:
+#0 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): misha_my_account_endpoint_content(false)
+#1 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3134): do_action('woocommerce_acc...', '')
+#4 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(307): woocommerce_account_content('')
+#5 D:\wamp64\www\clgpro\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 D:\wamp64\www\clgpro\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#7 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\templates\myaccount\my-account.php(34): do_action('woocommerce_acc...')
+#8 D:\wamp64\www\clgpro\wp-content\plugins\woocommerce\includes in D:\wamp64\www\clgpro\wp-content\themes\twentytwenty-child\functions.php on line 441
+

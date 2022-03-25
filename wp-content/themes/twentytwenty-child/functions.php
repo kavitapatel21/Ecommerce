@@ -10,8 +10,6 @@ if ( ! function_exists( 'b7ectg_theme_enqueue_styles' ) ) {
     }
 }
 
-//require_once("wp-config.php");
-//require_once("wp-load.php");
 // Submit Data contact us page
 add_action('wp_ajax_data_submit' , 'data_submit');
 add_action('wp_ajax_nopriv_data_submit','data_submit');
@@ -425,8 +423,16 @@ function misha_add_endpoint() {
 }
 	add_action( 'woocommerce_account_anyuniquetext123_endpoint', 'misha_my_account_endpoint_content' );
 function misha_my_account_endpoint_content() {
-
-		echo '<h1>Your Points:</h1>';
+	
+	global $wpdb;
+	$current_user_id = get_current_user_id();
+	//echo $current_user_id;
+	$chk_data = $wpdb->get_results("SELECT points FROM wp_userpoints  WHERE user_id='".$current_user_id ."' ");
+	foreach ($chk_data as $key => $value) {
+		$data = $value->points;
+	}
+		echo "<h1>Your points:".$data."</h1>";
+		
 		
 }
 ?>
@@ -455,30 +461,46 @@ add_action('init', 'scratchcode_create_payment_table');
 add_filter( 'woocommerce_thankyou_order_received_text', 'misha_thank_you_title', 20, 2 );
 
 function misha_thank_you_title( $thank_you_title, $order ){
-//	echo '<pre>';
+	//echo '<pre>';
 //	print_r($order);
-	$user_id = $order->get_customer_id(); 
+	$user_id = $order->get_user_id(); 
+	$cartitems=$order->get_item_count();	
+	//echo $cartitems;
   //  echo $user_id.'<br>';
 	echo "Thank you.Your order has been received.";
 	global $wpdb;
+	$result =  $wpdb->get_results("SELECT * FROM wp_userpoints WHERE user_id='".$user_id."'"); 
+	$no=$wpdb->num_rows;
+if ($no > 0){
+	$chk_data = $wpdb->get_results("SELECT points FROM wp_userpoints WHERE user_id='".$user_id."' ");
+	//echo $wpdb->last_result;
+	foreach ($chk_data as $key => $value) {
+         $data = $value->points;
+		 //echo $data;
+    }
+	if( $data>1){
+		$upddata=(10*$cartitems)+$data;    
+		//echo $data;       
+	$wpdb->update (
+		'wp_userpoints',
+        array(
+            'points'=>$upddata,
+           
+        ),
+		array(
+            'user_id'=>$user_id,
+        )
+       
+    );
+	}
+	
+}else{
+	$points=10*$cartitems;
 	$wpdb->insert('wp_userpoints', array(
 		'user_id' => $user_id,
-		'points' => '10', 
+		'points' => $points, 
 	));
-	$chk_data = $wpdb->get_results("SELECT user_id FROM wp_userpoints");
-	$no=$wpdb->num_rows;
-	if($no>1){
-		$wpdb->update (
-			'wp_userpoints',
-			array(
-				'username'=>$username,
-				
-			),
-			array(
-				'id'=>$id,
-			)
-		);
-	}
+}
 	
 }
 ?>
