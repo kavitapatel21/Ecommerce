@@ -504,3 +504,93 @@ if ($no > 0){
 	
 }
 ?>
+
+<?php
+//custom post category
+function misha_filter_function(){   
+	//echo '<pre>';
+//print_r($_POST);
+//exit();
+?>
+	<div class="container" style="padding-top: 30px;" >
+  <div class="row">
+	  <?php
+	// $postType = $_POST['type'];
+	$catSlug=$_POST['chkbox'];
+	//echo $catSlug;
+	$args=array(
+		'posts_per_page' => 50,    
+		'post_type' => 'custom_products',
+		'tax_query' => array(
+			array(
+				'taxonomy' => 'category', //double check your taxonomy name in you dd 
+				'field'    => 'id',
+				'terms'    => $catSlug,
+			),
+		   ),
+		 );
+		$wp_query = new WP_Query( $args );
+	  $response = '';
+	  if($wp_query->have_posts()) {
+		 // echo "hi";
+		 // exit();
+		while($wp_query->have_posts()) : $wp_query->the_post();
+		?>
+		<div class="col-md-3">
+		<?php $url = wp_get_attachment_url( get_post_thumbnail_id(), 'thumbnail' ); ?>  
+		<img src="<?php echo $url ?>" width="200" height="200" style="padding-top: 20px;" alt=""/>
+		<h2 style="padding-top: 5px;text-align:left;"><?php the_title(); ?></h2>
+		<h4 style="padding-top: 5px;text-align:left;"><?php the_content(); ?></h4>
+		<button type="button" class="btn btn-dark" style="align-items:center">Add to cart</button>
+		</div> 
+		<?php
+		endwhile;
+		?>
+		</div>
+		</div>
+		<?php
+	  } else {
+		$response = 'empty';
+	  }
+	}
+	
+	add_action('wp_ajax_misha_filter_function', 'misha_filter_function'); 
+	add_action('wp_ajax_nopriv_misha_filter_function', 'misha_filter_function');
+?>
+<?php
+add_action('wp_footer', 'ajaxcall');
+function ajaxcall(){
+	?>
+<script>
+	jQuery(function($){
+		$('#filter').click(function(){
+	//	alert('Hi');
+	var chkbox = jQuery(".chkbox").val();
+	//console.log(chkbox);
+	
+        $.ajax({
+			type: 'POST',
+			//dataType: 'json',
+            url:'<?php echo admin_url( 'admin-ajax.php' ); ?>',	
+            data:
+			{
+				action: 'misha_filter_function',
+				chkbox : chkbox,
+			 },// form data
+            
+            beforeSend:function(xhr){
+               // filter.find('button').text('Applying Filters...');   
+			       },
+            success:function(data){
+                //filter.find('button').text('Apply filters');
+                $('#response').html(data);
+            }
+        });
+        return false;
+    });
+});
+</script>
+<?php
+}
+?>
+
