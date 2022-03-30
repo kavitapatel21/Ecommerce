@@ -43,11 +43,16 @@ https://templatemo.com/tm-546-sixteen-clothing
 			<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/owl.css">
 			<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/style.css' ?>">
 			<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/templatemo-sixteen.css"/>
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 			<!-- Special version of Bootstrap that only affects content wrapped in .bootstrap-iso -->
 			<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" /> 
 			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">    
-
-<!--Font Awesome (added because you use icons in your prepend/append)-->
+			<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/owlcarousel/assets/owl.carousel.min.css">
+    		<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/owlcarousel/assets/owl.theme.default.min.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+			
+			<!--Font Awesome (added because you use icons in your prepend/append)-->
 <link rel="stylesheet" href="https://formden.com/static/cdn/font-awesome/4.4.0/css/font-awesome.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
 		

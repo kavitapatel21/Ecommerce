@@ -512,8 +512,8 @@ function misha_filter_function(){
 //print_r($_POST);
 //exit();
 ?>
-	<div class="container" style="padding-top: 30px;" >
-  <div class="row">
+	
+
 	  <?php
 	// $postType = $_POST['type'];
 	$catSlug=$_POST['chkbox'];
@@ -529,6 +529,11 @@ function misha_filter_function(){
 			),
 		   ),
 		 );
+		 ?>
+		 
+		 <div class="row col-xl-9 col-lg-9 col-md-12" id="response">
+            <div class="row">
+		 <?php
 		$wp_query = new WP_Query( $args );
 	  $response = '';
 	  if($wp_query->have_posts()) {
@@ -546,12 +551,15 @@ function misha_filter_function(){
 		<?php
 		endwhile;
 		?>
-		</div>
-		</div>
+		 </div>
+    </div>
+        </div>
+</div>
 		<?php
 	  } else {
 		$response = 'empty';
 	  }
+	  die();
 	}
 	
 	add_action('wp_ajax_misha_filter_function', 'misha_filter_function'); 
@@ -560,6 +568,7 @@ function misha_filter_function(){
 <?php
 add_action('wp_footer', 'ajaxcall');
 function ajaxcall(){
+	//for custom post category
 	?>
 <script>
 	jQuery(function($){

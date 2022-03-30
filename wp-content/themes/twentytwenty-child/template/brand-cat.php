@@ -26,7 +26,9 @@ array(
 ?>
 <form  method="POST" id="form">
 
-<div>
+<div class="container-fluid" style="padding-top: 30px;" >
+  <div class="row">
+	  <div class="col-xl-3 col-lg-3 col-md-12">
         <?php  
               if( $brands = get_terms( array( 'taxonomy' => 'category' ) ) ) :
                     echo '<ul class="brands-list">';
@@ -38,13 +40,15 @@ array(
                     echo '</ul>';
             endif;
         ?>
-    </div>
+    
     <input class="btn btn-dark" type="button" id="filter" value="Filter">
         <input type="hidden" name="action" value="myfilter">
+        
         </form>
+        </div>
 
-<div class="container" style="padding-top: 30px;" >
-  <div class="row" id="response">
+        <div class="row col-xl-9 col-lg-9 col-md-12" id="response">
+            <div class="row">
         <?php 
          $args = array(  
             'post_type' => 'custom_products',
@@ -64,6 +68,8 @@ array(
   <button type="button" class="btn btn-dark" style="align-items:center">Add to cart</button>
   </div> 
         <?php endwhile; ?>
+    </div>
+    </div>
         </div>
 </div>
     

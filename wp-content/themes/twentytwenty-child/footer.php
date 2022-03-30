@@ -26,7 +26,8 @@
 
 
     <!-- Bootstrap core JavaScript -->
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/vendor/jquery/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 
@@ -37,14 +38,15 @@
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/isotope.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/accordions.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
     	<!-- Include Date Range Picker -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-
-
-
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/owlcarousel/owl.carousel.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/owlcarousel/owl.carousel.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    
     <script language = "text/Javascript"> 
       cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
       function clearField(t){                   //declaring the array outside of the
