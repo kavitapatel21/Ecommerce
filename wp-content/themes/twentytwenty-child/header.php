@@ -40,7 +40,7 @@ https://templatemo.com/tm-546-sixteen-clothing
 			<link rel="icon" href="/favicon-32x32.png" />-->
 			<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon.png" />
 			<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/fontawesome.css">
-			<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/owl.css">
+
 			<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/style.css' ?>">
 			<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/templatemo-sixteen.css"/>
 			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">

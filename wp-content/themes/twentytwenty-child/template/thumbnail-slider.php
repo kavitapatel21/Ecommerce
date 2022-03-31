@@ -3,83 +3,138 @@
 Template Name: Thumbnail-slider
 Template Post Type: post, page, my-post-type;
 */
-get_header();
 ?>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/assets/owl.carousel.min.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/assets/owl.carousel.min.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css"/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+/>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/owl.carousel.min.js"></script>
 
 <div id="sync1" class="owl-carousel owl-theme">
   <div class="item fade">
     <h4>
-      <img src="https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=hello" alt="landscape"/>
-    </h4>
-  </div>
-  <div class="item fade">
-    <h4>
-      <img src="https://fakeimg.pl/440x230/666666/eae0d0/?retina=1&text=world" alt="landscape"/>
-    </h4>
-  </div>
-  <div class="item fade">
-    <h4>
-      <img src="https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=hello" alt="landscape"
+      <img
+        src="https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=hello"
+        alt="landscape"
       />
     </h4>
   </div>
   <div class="item fade">
     <h4>
-      <img src="https://fakeimg.pl/440x230/666666/eae0d0/?retina=1&text=world" alt="landscape"/>
+      <img
+        src="https://fakeimg.pl/440x230/666666/eae0d0/?retina=1&text=world"
+        alt="landscape"
+      />
     </h4>
   </div>
   <div class="item fade">
     <h4>
-      <img src="https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=hello" alt="landscape"/>
+      <img
+        src="https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=hello"
+        alt="landscape"
+      />
     </h4>
   </div>
   <div class="item fade">
     <h4>
-      <img src="https://fakeimg.pl/440x230/666666/eae0d0/?retina=1&text=world" alt="landscape"/>
+      <img
+        src="https://fakeimg.pl/440x230/666666/eae0d0/?retina=1&text=world"
+        alt="landscape"
+      />
     </h4>
   </div>
   <div class="item fade">
     <h4>
-      <img src="https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=hello" alt="landscape"/>
+      <img
+        src="https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=hello"
+        alt="landscape"
+      />
     </h4>
   </div>
   <div class="item fade">
     <h4>
-      <img src="https://fakeimg.pl/440x230/666666/eae0d0/?retina=1&text=world" alt="landscape"/>
+      <img
+        src="https://fakeimg.pl/440x230/666666/eae0d0/?retina=1&text=world"
+        alt="landscape"
+      />
+    </h4>
+  </div>
+  <div class="item fade">
+    <h4>
+      <img
+        src="https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=hello"
+        alt="landscape"
+      />
+    </h4>
+  </div>
+  <div class="item fade">
+    <h4>
+      <img
+        src="https://fakeimg.pl/440x230/666666/eae0d0/?retina=1&text=world"
+        alt="landscape"
+      />
     </h4>
   </div>
 </div>
 
 <div id="sync2" class="owl-carousel owl-theme">
   <div class="item">
-    <img src="https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=hello" alt="landscape"/>
+    <img
+      src="https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=hello"
+      alt="landscape"
+    />
   </div>
   <div class="item">
     <!-- <h1>2</h1> -->
-    <img src="https://fakeimg.pl/440x230/666666/eae0d0/?retina=1&text=world" alt="landscape"/>
+    <img
+      src="https://fakeimg.pl/440x230/666666/eae0d0/?retina=1&text=world"
+      alt="landscape"
+    />
   </div>
   <div class="item">
-    <img src="https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=hello" alt="landscape"/>
+    <img
+      src="https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=hello"
+      alt="landscape"
+    />
   </div>
   <div class="item">
-    <img src="https://fakeimg.pl/440x230/666666/eae0d0/?retina=1&text=world" alt="landscape"/>
+    <img
+      src="https://fakeimg.pl/440x230/666666/eae0d0/?retina=1&text=world"
+      alt="landscape"
+    />
   </div>
   <div class="item">
-    <img src="https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=hello" alt="landscape"/>
+    <img
+      src="https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=hello"
+      alt="landscape"
+    />
   </div>
   <div class="item">
-    <img src="https://fakeimg.pl/440x230/666666/eae0d0/?retina=1&text=world" alt="landscape"/>
+    <img
+      src="https://fakeimg.pl/440x230/666666/eae0d0/?retina=1&text=world"
+      alt="landscape"
+    />
   </div>
   <div class="item">
-    <img src="https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=hello" alt="landscape"/>
+    <img
+      src="https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=hello"
+      alt="landscape"
+    />
   </div>
   <div class="item">
-    <img src="https://fakeimg.pl/440x230/666666/eae0d0/?retina=1&text=world" alt="landscape"/>
+    <img
+      src="https://fakeimg.pl/440x230/666666/eae0d0/?retina=1&text=world"
+      alt="landscape"
+    />
   </div>
 </div>
 <style type="text/css">
@@ -164,7 +219,8 @@ get_header();
     var slidesPerPage = 5; //globaly define number of elements per page
     var syncedSecondary = true;
 
-    sync1.owlCarousel({
+    sync1
+      .owlCarousel({
       items: 1,
       slideSpeed: 3000,
       nav: true,
@@ -194,8 +250,10 @@ get_header();
     })
       .on("changed.owl.carousel", syncPosition);
 
-    sync2.on("initialized.owl.carousel", function() {
-      sync2.find(".owl-item")
+    sync2
+      .on("initialized.owl.carousel", function() {
+      sync2
+        .find(".owl-item")
         .eq(0)
         .addClass("current");
     })
@@ -227,15 +285,18 @@ get_header();
 
       //end block
 
-      sync2.find(".owl-item")
+      sync2
+        .find(".owl-item")
         .removeClass("current")
         .eq(current)
         .addClass("current");
       var onscreen = sync2.find(".owl-item.active").length - 1;
-      var start = sync2.find(".owl-item.active")
+      var start = sync2
+      .find(".owl-item.active")
       .first()
       .index();
-      var end = sync2.find(".owl-item.active")
+      var end = sync2
+      .find(".owl-item.active")
       .last()
       .index();
 
@@ -261,6 +322,7 @@ get_header();
     });
   });
 </script>
+
 <?php
-get_footer();
+//sget_footer();
 ?>
